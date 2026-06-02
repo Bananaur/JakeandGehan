@@ -759,14 +759,14 @@ function Entourage() {
           <p className="uppercase tracking-[0.25em] text-[#9A5B3F] text-xs mb-5">
             Parents of the Groom
           </p>
-          <NameList names={["WILLIAM M. PINCA", "ALICIA PINCA"]} />
+          <NameList names={["MR. WILLIAM M. PINCA", "MRS. ALICIA PINCA"]} />
         </div>
 
         <div className="bg-white/85 rounded-[2rem] p-8 shadow-lg border border-[#F1D3A2] text-center">
           <p className="uppercase tracking-[0.25em] text-[#9A5B3F] text-xs mb-5">
             Parents of the Bride
           </p>
-          <NameList names={["ALEBRO ANDREW BROZAS", "MARCELA BROZAS"]} />
+          <NameList names={["MR. ALEBRO ANDREW BROZAS", "MRS. MARCELA BROZAS"]} />
         </div>
       </div>
 
