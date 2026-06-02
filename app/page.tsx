@@ -399,11 +399,11 @@
       Balud, San Roque Northern Samar
     </p>
 
-    <p className="text-lg md:text-2xl mb-10 text-[#2E1F17]">
+    <p className="text-lg md:text-2xl mb-4 text-[#2E1F17]">
       July 14, 2026
     </p>
     
-    <p className="text-lg md:text-2xl mb-5 text-[#2E1F17]">
+    <p className="text-m md:text-xl mb-5 text-[#2E1F17]">
       2:00 PM
     </p>
 
