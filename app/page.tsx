@@ -678,19 +678,19 @@
         {schedule.map(([time, event]) => (
           <div
           key={time}
-          className="bg-white/85 rounded-3xl p-6 border border-[#F1D3A2] shadow-sm flex flex-col md:flex-row md:items-center"
+          className="bg-white/85 rounded-3xl p-6 border border-[#F1D3A2] shadow-sm grid grid-cols-2 gap-4 items-center"
         >
-          <div className="md:w-[260px] flex-shrink-0">
-            <p className="text-[#9A5B3F] text-lg md:text-xl font-semibold">
+          <div>
+            <p className="text-[#9A5B3F] text-lg md:text-xl font-semibold text-right pr-3">
               {time}
             </p>
           </div>
         
-          <div className="mt-2 md:mt-0 flex-1 text-center md:text-right">
-    <p className="text-xl md:text-2xl text-[#4A3527]">
-      {event}
-    </p>
-  </div>
+          <div>
+            <p className="text-xl md:text-2xl text-[#4A3527] text-left pl-3">
+              {event}
+            </p>
+          </div>
         </div>
         ))}
       </div>
