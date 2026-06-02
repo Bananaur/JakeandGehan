@@ -880,7 +880,7 @@ function Entourage() {
       Ring Bearer
     </p>
     <p className="text-xl md:text-2xl text-[#4A3527]">
-      AMANCIO Y. ACEDERA III
+      AMANCIO ACEDERA III
     </p>
   </div>
 
