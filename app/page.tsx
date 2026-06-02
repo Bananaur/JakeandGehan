@@ -457,7 +457,7 @@ export default function WeddingWebsiteV6() {
       </p>
 
       <div className="mt-10">
-      <p className={`${greatVibes.className} text-6xl md:text-8xl leading-tight`}>
+      <p className={`${greatVibes.className} text-3xl md:text-8xl leading-tight`}>
   <span className="block md:inline">Jake</span>
   <span className="block md:inline">&amp;</span>
   <span className="block md:inline">Gehan</span>
@@ -776,11 +776,11 @@ function Entourage() {
   </h3>
 
   <div className="grid grid-cols-2 gap-4 mb-6">
-  <p className="uppercase tracking-[0.25em] text-[#9A5B3F] text-sm text-center">
+  <p className="uppercase tracking-[0.25em] text-[#9A5B3F] text-xs text-center">
     Ninong
   </p>
 
-  <p className="uppercase tracking-[0.25em] text-[#9A5B3F] text-sm text-center">
+  <p className="uppercase tracking-[0.25em] text-[#9A5B3F] text-xs text-center">
     Ninang
   </p>
 </div>
@@ -803,16 +803,16 @@ function Entourage() {
   {/* Mobile Layout */}
   <div className="md:hidden">
     <div className="grid grid-cols-2 gap-2 text-center">
-      <p className="text-xs text-[#4A3527]">
+      <p className="text-sm text-[#4A3527]">
         MRS. SOLEDAD TAN
       </p>
 
-      <p className="text-xs text-[#4A3527]">
+      <p className="text-sm text-[#4A3527]">
         MRS. SARITA MORALES
       </p>
     </div>
 
-    <p className="text-xs text-[#4A3527] text-center mt-3">
+    <p className="text-sm text-[#4A3527] text-center mt-3">
       Mrs. ELSA ACEDERA
     </p>
   </div>
@@ -893,7 +893,7 @@ function Entourage() {
     <p className="uppercase tracking-[0.25em] text-[#9A5B3F] text-xs mb-4">
       Ring Bearer
     </p>
-    <p className="text-xl md:text-2xl text-[#4A3527]">
+    <p className="text-sm md:text-2xl text-[#4A3527]">
       AMANCIO ACEDERA III
     </p>
   </div>
@@ -902,7 +902,7 @@ function Entourage() {
     <p className="uppercase tracking-[0.25em] text-[#9A5B3F] text-xs mb-4">
       Coin Bearer
     </p>
-    <p className="text-xl md:text-2xl text-[#4A3527]">
+    <p className="text-sm md:text-2xl text-[#4A3527]">
       ELIAS PINCA
     </p>
   </div>
@@ -911,7 +911,7 @@ function Entourage() {
     <p className="uppercase tracking-[0.25em] text-[#9A5B3F] text-xs mb-4">
       Bible Bearer
     </p>
-    <p className="text-xl md:text-2xl text-[#4A3527]">
+    <p className="text-sm md:text-2xl text-[#4A3527]">
       XION ISAAC ACEDERA
     </p>
   </div>
@@ -920,7 +920,7 @@ function Entourage() {
     <p className="uppercase tracking-[0.25em] text-[#9A5B3F] text-xs mb-4">
       Flower Girls
     </p>
-    <p className="text-xl md:text-2xl text-[#4A3527]">
+    <p className="text-sm md:text-2xl text-[#4A3527]">
       LICIA JANE PINCA
       <br />
       MIMI ALIDON
