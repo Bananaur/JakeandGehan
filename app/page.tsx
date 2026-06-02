@@ -781,7 +781,7 @@ function Entourage() {
         Ninong
       </p>
 
-      <div className="space-y-3">
+      <div className="space-y-1">
         {principalMen.map((name) => (
           <p key={name} className="text-[11px] md:text-xl text-[#4A3527]">
             {name}
@@ -795,7 +795,7 @@ function Entourage() {
         Ninang
       </p>
 
-      <div className="space-y-3">
+      <div className="space-y-1">
         {principalWomen.map((name) => (
           <p key={name} className="text-[11px] md:text-xl text-[#4A3527]">
             {name}
