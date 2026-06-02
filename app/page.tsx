@@ -450,7 +450,7 @@
     The Entourage
   </p>
 
-  <p className="uppercase tracking-[0.25em] text-[#9A5B3F] text-[10px] md:text-sm mb-3">
+  <p className="uppercase tracking-[0.25em] text-[#4A3527] text-XS md:text-sm mb-3">
     William Pinca Jr &amp; Angelica Hannah Brozas
   </p>
 
