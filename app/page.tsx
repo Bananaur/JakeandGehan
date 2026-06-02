@@ -446,21 +446,15 @@
       }}
     >
       <div className="text-center mb-12 md:mb-14">
-  <p className="uppercase tracking-[0.3em] text-[#9A5B3F] text-xs md:text-sm mb-4">
-    The Entourage
-  </p>
-
-  <p className="uppercase tracking-[0.25em] text-[#4A3527] text-XS md:text-sm mb-3">
+  <p className="uppercase tracking-[0.25em] text-[#9A5B3F] text-[10px] md:text-sm mb-4">
     William Pinca Jr &amp; Angelica Hannah Brozas
   </p>
 
-  <h2
-    className={`${greatVibes.className} text-5xl md:text-7xl text-[#4A3527] leading-tight`}
-  >
-    Nuptials
+  <h2 className="text-4xl md:text-7xl text-[#4A3527] tracking-wide leading-tight">
+    The Entourage
   </h2>
 
-  <p className="mt-3 uppercase tracking-[0.25em] text-[#9A5B3F] text-[10px] md:text-sm">
+  <p className="mt-4 uppercase tracking-[0.25em] text-[#9A5B3F] text-[10px] md:text-sm">
     With The People We Love
   </p>
 </div>
