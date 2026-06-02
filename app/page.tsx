@@ -832,6 +832,7 @@ function Entourage() {
     </p>
   </div>
 </div>
+</div>
 
       <div className="grid grid-cols-2 gap-4 md:gap-8">
         <div className="bg-white/85 rounded-[2rem] p-8 shadow-lg border border-[#F1D3A2] text-center">
