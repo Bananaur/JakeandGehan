@@ -10,12 +10,12 @@ const greatVibes = Great_Vibes({
 
 export const metadata: Metadata = {
   metadataBase: new URL("https://jakeandgehan.vercel.app"),
-  title: "You Are Invited!",
+  title: "You Are Cordially Invited!",
   description:
     "Join us as we celebrate the wedding of Jake & Gehan on July 14, 2026 at Villa Cruz Nature's Resort.",
 
   openGraph: {
-    title: "You Are Invited!",
+    title: "You Are Cordially Invited!",
     description:
       "Join us as we celebrate the wedding of Jake & Gehan on July 14, 2026 at Villa Cruz Nature's Resort.",
     url: "https://jakeandgehan.vercel.app",
