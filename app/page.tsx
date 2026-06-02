@@ -788,11 +788,11 @@ function Entourage() {
 <div className="space-y-2">
   {principalMen.map((ninong, index) => (
     <div key={ninong} className="grid grid-cols-2 gap-4">
-      <p className="text-xs md:text-xl text-[#4A3527] text-right pr-2 md:pr-8">
+      <p className="text-sm md:text-xl text-[#4A3527] text-right pr-2 md:pr-8">
   {ninong}
 </p>
 
-<p className="text-xs md:text-xl text-[#4A3527] text-left pl-2 md:pl-8">
+<p className="text-sm md:text-xl text-[#4A3527] text-left pl-2 md:pl-8">
   {principalWomen[index]}
 </p>
     </div>
