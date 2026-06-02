@@ -786,7 +786,6 @@
       ]
 
       const groomsmen = [
-        "APRIL CALEB OBIADO",
         "ROYETTE BALANQUIT",
         "SAMSON NEONES",
         "GIO LAGARTO",
@@ -796,10 +795,10 @@
         "IAN ROBERT ONG",
         "RALPH LAWRENCE CUI",
         "RAUL TEPACE",
+        "APRIL CALEB OBIADO",
       ]
 
       const bridesmaids = [
-        "DEBORAH ANN DACUNO",
         "BEVERLY CLARK OBIADO",
         "XYLEEN KIM ACEDERA",
         "XIANNE RIZZA ACEDERA",
@@ -809,6 +808,7 @@
         "JOMARIE TAN",
         "JEAN OBIADO",
         "ANFEL JOY DUMORAN",
+        "DEBORAH ANN DACUNO",
       ]
 
       const NameList = ({ names }: { names: string[] }) => (
