@@ -693,7 +693,7 @@ function Entourage() {
     "DR. LAARNI DACUNO",
     "MRS. LILIBETH MENGORIA",
     "MRS. FLORIZA ACEDERA",
-    "MRS. OWEN SIERVO",
+    "MRS. FE SIERVO",
     "MRS. CAROL EPING",
     "DR. EMMA MERINO",
     "MRS. EMMA LEBECO",
@@ -749,7 +749,7 @@ function Entourage() {
         <p className="uppercase tracking-[0.25em] text-[#9A5B3F] text-xs mb-3">
           Officiating Minister
         </p>
-        <h3 className="text-2xl md:text-3xl text-[#4A3527]">
+        <h3 className="text-sm md:text-2xl text-[#4A3527]">
           PTR. LOWELL L. BARTE
         </h3>
       </div>
@@ -776,11 +776,11 @@ function Entourage() {
   </h3>
 
   <div className="grid grid-cols-2 gap-4 mb-6">
-  <p className="uppercase tracking-[0.25em] text-[#9A5B3F] text-xs text-center">
+  <p className="uppercase tracking-[0.25em] text-[#9A5B3F] text-sm text-center">
     Ninong
   </p>
 
-  <p className="uppercase tracking-[0.25em] text-[#9A5B3F] text-xs text-center">
+  <p className="uppercase tracking-[0.25em] text-[#9A5B3F] text-sm text-center">
     Ninang
   </p>
 </div>
@@ -804,31 +804,31 @@ function Entourage() {
   <div className="md:hidden">
     <div className="grid grid-cols-2 gap-4 text-center">
       <p className="text-xs text-[#4A3527]">
-        Mrs. Soledad Tan
+        MRS. SOLEDAD TAN
       </p>
 
       <p className="text-xs text-[#4A3527]">
-        Mrs. Sarita Morales
+        MRS. SARITA MORALES
       </p>
     </div>
 
     <p className="text-xs text-[#4A3527] text-center mt-3">
-      Mrs. Elsa Acedera
+      Mrs. ELSA ACEDERA
     </p>
   </div>
 
   {/* Desktop Layout */}
   <div className="hidden md:grid md:grid-cols-3 md:gap-4 text-center">
     <p className="text-xl text-[#4A3527]">
-      Mrs. Soledad Tan
+    MRS. SOLEDAD TAN
     </p>
 
     <p className="text-xl text-[#4A3527]">
-      Mrs. Elsa Acedera
+    Mrs. ELSA ACEDERA
     </p>
 
     <p className="text-xl text-[#4A3527]">
-      Mrs. Sarita Morales
+    MRS. SARITA MORALES
     </p>
   </div>
 </div>
