@@ -890,19 +890,17 @@
 
   <div className="mt-10">
   {/* Mobile Layout */}
-  <div className="md:hidden">
-    <div className="grid grid-cols-2 gap-2 text-center">
-      <p className="text-sm text-[#4A3527] whitespace-nowrap">
-        MRS. SOLEDAD TAN
-      </p>
-
-      <p className="text-sm text-[#4A3527] whitespace-nowrap">
-        MRS. SARITA MORALES
-      </p>
-    </div>
-
-    <p className="text-sm text-[#4A3527] text-center mt-3">
+  <div className="md:hidden text-center space-y-2">
+    <p className="text-sm text-[#4A3527]">
       MRS. ELSA ACEDERA
+    </p>
+
+    <p className="text-sm text-[#4A3527]">
+      MRS. SARITA MORALES
+    </p>
+
+    <p className="text-sm text-[#4A3527]">
+      MRS. SOLEDAD TAN
     </p>
   </div>
 
