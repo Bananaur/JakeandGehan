@@ -149,9 +149,9 @@ export default function WeddingWebsiteV6() {
 <h1
   className={`${greatVibes.className} text-white mb-12 text-center`}
   style={{
-    fontSize: "clamp(4.5rem, 18vw, 11rem)",
-    lineHeight: "0.85",
-    letterSpacing: "0.03em",
+    fontSize: "clamp(4.5rem, 18vw, 15rem)",
+    lineHeight: "0.90",
+    letterSpacing: "0.05em",
     textShadow: "0 4px 20px rgba(0,0,0,0.18)",
   }}
 >
