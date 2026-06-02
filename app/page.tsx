@@ -154,8 +154,8 @@ export default function WeddingWebsiteV6() {
     }}
   >
     <p className="text-[8rem] md:text-[11rem] leading-[0.8]">Jake</p>
-    <p className="text-[5.5rem] md:text-[8rem] leading-[0.75]">&amp;</p>
-    <p className="text-[8rem] md:text-[11rem] leading-[0.8]">Gehan</p>
+    <p className="text-[5.5rem] md:text-[8rem] leading-[0.75] ml-10">&amp;</p>
+    <p className="text-[8rem] md:text-[11rem] leading-[0.8] ml-20">Gehan</p>
   </div>
 </div>
 
