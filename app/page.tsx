@@ -750,7 +750,7 @@ function Entourage() {
           Officiating Minister
         </p>
         <h3 className="text-sm md:text-2xl text-[#4A3527]">
-          PTR. LOWELL L. BARTE
+          PTR. LOWELL BARTE
         </h3>
       </div>
 
@@ -759,7 +759,7 @@ function Entourage() {
           <p className="uppercase tracking-[0.25em] text-[#9A5B3F] text-xs mb-5">
             Parents of the Groom
           </p>
-          <NameList names={["WILLIAM PINCA SR.", "ALICIA PINCA"]} />
+          <NameList names={["WILLIAM M. PINCA", "ALICIA PINCA"]} />
         </div>
 
         <div className="bg-white/85 rounded-[2rem] p-8 shadow-lg border border-[#F1D3A2] text-center">
@@ -846,7 +846,7 @@ function Entourage() {
           <p className="uppercase tracking-[0.25em] text-[#9A5B3F] text-xs mb-5">
             Maid of Honor
           </p>
-          <NameList names={["MISS CHRISTINE ANDREA BROZAS"]} />
+          <NameList names={["CHRISTINE ANDREA BROZAS"]} />
         </div>
       </div>
 
