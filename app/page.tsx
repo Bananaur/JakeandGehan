@@ -232,16 +232,16 @@
       }}
     >
       <p className="block md:inline text-[8rem] md:text-[11rem] leading-[0.8]">
-    Jake
-  </p>
+  Jake{" "}
+</p>
 
-  <p className="block md:inline text-[5.5rem] md:text-[8rem] leading-[0.75]">
-    &amp;
-  </p>
+<p className="block md:inline text-[5.5rem] md:text-[8rem] leading-[0.75] mx-4">
+  &amp;
+</p>
 
-  <p className="block md:inline text-[8rem] md:text-[11rem] leading-[0.8]">
-    Gehan
-  </p>
+<p className="block md:inline text-[8rem] md:text-[11rem] leading-[0.8]">
+  {" "}Gehan
+</p>
     </div>
   </div>
 
