@@ -449,12 +449,12 @@
   
       <p className="uppercase tracking-[0.3em] text-[#9A5B3F] text-xs md:text-sm mt-6 mb-4">
     The Entourage
-  </p><p className="uppercase tracking-[0.3em] text-[#9A5B3F] text-xs md:text-sm mb-2">
+  </p><p className="uppercase tracking-[0.3em] text-[#9A5B3F] text-m md:text-sm mb-2">
     Pinca &amp; Brozas
   </p>
 
   <h2
-    className={`${greatVibes.className} text-5xl md:text-7xl text-[#4A3527] leading-tight`}
+    className={`${greatVibes.className} text-5xl md:text-4xl text-[#4A3527] leading-tight`}
   >
     Nuptials
   </h2>
