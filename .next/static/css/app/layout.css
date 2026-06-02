@@ -757,6 +757,9 @@ video {
 .grid-cols-2 {
   grid-template-columns: repeat(2, minmax(0, 1fr));
 }
+.grid-cols-3 {
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+}
 .flex-col {
   flex-direction: column;
 }
@@ -1298,6 +1301,14 @@ body {
     display: flex;
   }
 
+  .md\:grid {
+    display: grid;
+  }
+
+  .md\:contents {
+    display: contents;
+  }
+
   .md\:hidden {
     display: none;
   }
@@ -1352,6 +1363,10 @@ body {
 
   .md\:gap-8 {
     gap: 2rem;
+  }
+
+  .md\:gap-4 {
+    gap: 1rem;
   }
 
   .md\:p-10 {
