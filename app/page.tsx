@@ -447,14 +447,14 @@
     >
       <div className="text-center mb-12 md:mb-14">
   <p className="uppercase tracking-[0.25em] text-[#9A5B3F] text-[10px] md:text-sm mb-4">
-    William Pinca Jr &amp; Angelica Hannah Brozas
+    Pinca &amp; Brozas Nuptials
   </p>
 
-  <h2 className="text-4xl md:text-7xl text-[#4A3527] tracking-wide leading-tight">
+  <h2 className="mt-4 uppercase tracking-[0.25em] text-[#9A5B3F] text-[10px] md:text-sm">
     The Entourage
   </h2>
 
-  <p className="mt-4 uppercase tracking-[0.25em] text-[#9A5B3F] text-[10px] md:text-sm">
+  <p className="text-4xl md:text-7xl text-[#4A3527] tracking-wide leading-tight">
     With The People We Love
   </p>
 </div>
