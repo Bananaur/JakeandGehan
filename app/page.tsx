@@ -775,35 +775,29 @@ function Entourage() {
     Principal Sponsors
   </h3>
 
-  <div className="grid grid-cols-2 gap-4 md:gap-10">
-    <div>
-      <p className="uppercase tracking-[0.25em] text-[#9A5B3F] text-xs mb-6">
-        Ninong
+  <div className="grid grid-cols-2 gap-4 mb-6">
+  <p className="uppercase tracking-[0.25em] text-[#9A5B3F] text-xs text-center">
+    Ninong
+  </p>
+
+  <p className="uppercase tracking-[0.25em] text-[#9A5B3F] text-xs text-center">
+    Ninang
+  </p>
+</div>
+
+<div className="space-y-2">
+  {principalMen.map((ninong, index) => (
+    <div key={ninong} className="grid grid-cols-2 gap-4">
+      <p className="text-[11px] md:text-xl text-[#4A3527] text-center">
+        {ninong}
       </p>
 
-      <div className="space-y-1">
-        {principalMen.map((name) => (
-          <p key={name} className="text-[11px] md:text-xl text-[#4A3527]">
-            {name}
-          </p>
-        ))}
-      </div>
-    </div>
-
-    <div>
-      <p className="uppercase tracking-[0.25em] text-[#9A5B3F] text-xs mb-6">
-        Ninang
+      <p className="text-[11px] md:text-xl text-[#4A3527] text-center">
+        {principalWomen[index]}
       </p>
-
-      <div className="space-y-2">
-        {principalWomen.map((name) => (
-          <p key={name} className="text-[11px] md:text-xl text-[#4A3527]">
-            {name}
-          </p>
-        ))}
-      </div>
     </div>
-  </div>
+  ))}
+</div>
 
   <div className="mt-10 grid md:grid-cols-3 gap-6 text-center">
     <p className="text-xs md:text-xl text-[#4A3527]">
