@@ -802,7 +802,7 @@ function Entourage() {
 <div className="mt-10">
   {/* Mobile Layout */}
   <div className="md:hidden">
-    <div className="grid grid-cols-2 gap-4 text-center">
+    <div className="grid grid-cols-2 gap-2 text-center">
       <p className="text-xs text-[#4A3527]">
         MRS. SOLEDAD TAN
       </p>
