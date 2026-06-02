@@ -736,7 +736,7 @@ function Entourage() {
   const NameList = ({ names }: { names: string[] }) => (
     <div className="space-y-3">
       {names.map((name) => (
-        <p key={name} className="text-lg md:text-xl text-[#4A3527] tracking-wide">
+        <p key={name} className="text-sm md:text-xl text-[#4A3527] tracking-wide">
           {name}
         </p>
       ))}
@@ -775,7 +775,7 @@ function Entourage() {
     Principal Sponsors
   </h3>
 
-  <div className="grid md:grid-cols-2 gap-10">
+  <div className="grid grid-cols-2 gap-4 md:gap-10">
     <div>
       <p className="uppercase tracking-[0.25em] text-[#9A5B3F] text-xs mb-6">
         Ninong
@@ -783,7 +783,7 @@ function Entourage() {
 
       <div className="space-y-3">
         {principalMen.map((name) => (
-          <p key={name} className="text-lg md:text-xl text-[#4A3527]">
+          <p key={name} className="text-sm md:text-xl text-[#4A3527]">
             {name}
           </p>
         ))}
@@ -820,7 +820,7 @@ function Entourage() {
   </div>
 </div>
 
-      <div className="grid md:grid-cols-2 gap-8">
+      <div className="grid grid-cols-2 gap-4 md:gap-8">
         <div className="bg-white/85 rounded-[2rem] p-8 shadow-lg border border-[#F1D3A2] text-center">
           <p className="uppercase tracking-[0.25em] text-[#9A5B3F] text-xs mb-5">
             Best Man
