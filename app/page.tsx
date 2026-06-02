@@ -446,15 +446,21 @@
       }}
     >
       <div className="text-center mb-12 md:mb-14">
-  <p className="uppercase tracking-[0.25em] text-[#9A5B3F] text-[10px] md:text-sm mb-4">
-    Pinca &amp; Brozas Nuptials
+  <p className="uppercase tracking-[0.3em] text-[#9A5B3F] text-xs md:text-sm mb-2">
+    Pinca &amp; Brozas
   </p>
 
-  <h2 className="mt-4 uppercase tracking-[0.25em] text-[#9A5B3F] text-[10px] md:text-sm">
-    The Entourage
+  <h2
+    className={`${greatVibes.className} text-5xl md:text-7xl text-[#4A3527] leading-tight`}
+  >
+    Nuptials
   </h2>
 
-  <p className="text-4xl md:text-7xl text-[#4A3527] tracking-wide leading-tight">
+  <p className="uppercase tracking-[0.3em] text-[#9A5B3F] text-xs md:text-sm mt-6 mb-4">
+    The Entourage
+  </p>
+
+  <p className="text-[#6F4E37] text-sm md:text-lg italic">
     With The People We Love
   </p>
 </div>
