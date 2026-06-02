@@ -136,25 +136,27 @@ export default function WeddingWebsiteV6() {
             <div className="absolute inset-0 bg-gradient-to-b from-[#3D2B1F]/70 via-[#8F5A3A]/40 to-[#FFF7ED]" />
 
             <div className="relative z-10 text-center max-w-5xl">
-            <div className="text-[#FFF3D6] uppercase tracking-[0.35em] mb-12">
-  <p className="text-xl md:text-4xl">
-    THE WEDDING
-  </p>
+            <div className="flex flex-col items-center text-center mb-12">
+  <div className="text-[#FFF3D6] uppercase tracking-[0.35em] mb-6">
+    <p className="text-xl md:text-4xl">
+      THE WEDDING
+    </p>
 
-  <p className="text-base md:text-2xl mt-3">
-    OF
-  </p>
-</div>
+    <p className="text-base md:text-2xl mt-3">
+      OF
+    </p>
+  </div>
 
-<div
-  className={`${greatVibes.className} text-white text-center mb-12`}
-  style={{
-    textShadow: "0 4px 20px rgba(0,0,0,0.18)",
-  }}
->
-  <p className="text-[7rem] md:text-[11rem] leading-none">Jake</p>
-  <p className="text-[5rem] md:text-[8rem] leading-none">&amp;</p>
-  <p className="text-[7rem] md:text-[11rem] leading-none">Gehan</p>
+  <div
+    className={`${greatVibes.className} text-white text-center`}
+    style={{
+      textShadow: "0 4px 20px rgba(0,0,0,0.18)",
+    }}
+  >
+    <p className="text-[8rem] md:text-[11rem] leading-[0.8]">Jake</p>
+    <p className="text-[5.5rem] md:text-[8rem] leading-[0.75]">&amp;</p>
+    <p className="text-[8rem] md:text-[11rem] leading-[0.8]">Gehan</p>
+  </div>
 </div>
 
               <div className="bg-[#4A3527]/40 backdrop-blur-md rounded-[2rem] p-6 md:p-8 max-w-3xl mx-auto border border-[#F7DFA7]/25 shadow-2xl">
