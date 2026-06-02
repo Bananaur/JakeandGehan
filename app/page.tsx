@@ -892,11 +892,11 @@
   {/* Mobile Layout */}
   <div className="md:hidden">
     <div className="grid grid-cols-2 gap-2 text-center">
-      <p className="text-xs text-[#4A3527] whitespace-nowrap">
+      <p className="text-sm text-[#4A3527] whitespace-nowrap">
         MRS. SOLEDAD TAN
       </p>
 
-      <p className="text-xs text-[#4A3527] whitespace-nowrap">
+      <p className="text-sm text-[#4A3527] whitespace-nowrap">
         MRS. SARITA MORALES
       </p>
     </div>
@@ -913,7 +913,7 @@
       </p>
 
       <p className="text-xl text-[#4A3527]">
-      Mrs. ELSA ACEDERA
+      MRS. ELSA ACEDERA
       </p>
 
       <p className="text-xl text-[#4A3527]">
