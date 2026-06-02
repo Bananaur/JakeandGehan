@@ -446,7 +446,10 @@
       }}
     >
       <div className="text-center mb-12 md:mb-14">
-  <p className="uppercase tracking-[0.3em] text-[#9A5B3F] text-xs md:text-sm mb-2">
+  
+      <p className="uppercase tracking-[0.3em] text-[#9A5B3F] text-xs md:text-sm mt-6 mb-4">
+    The Entourage
+  </p><p className="uppercase tracking-[0.3em] text-[#9A5B3F] text-xs md:text-sm mb-2">
     Pinca &amp; Brozas
   </p>
 
@@ -455,10 +458,6 @@
   >
     Nuptials
   </h2>
-
-  <p className="uppercase tracking-[0.3em] text-[#9A5B3F] text-xs md:text-sm mt-6 mb-4">
-    The Entourage
-  </p>
 
   <p className="text-[#6F4E37] text-sm md:text-lg italic">
     With The People We Love
