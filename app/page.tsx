@@ -734,7 +734,7 @@ function Entourage() {
   ]
 
   const NameList = ({ names }: { names: string[] }) => (
-    <div className="space-y-3">
+    <div className="space-y-1">
       {names.map((name) => (
         <p key={name} className="text-sm md:text-xl text-[#4A3527] tracking-wide">
           {name}
