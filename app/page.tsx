@@ -877,11 +877,11 @@
   <div className="space-y-3">
   {principalMen.map((ninong, index) => (
     <div key={ninong} className="grid grid-cols-2 gap-4">
-      <p className="text-[11px] md:text-xl text-[#4A3527] text-right pr-4 leading-tight">
+      <p className="text-sm md:text-xl text-[#4A3527] text-right pr-4 leading-tight">
         {formatSponsorName(ninong)}
       </p>
 
-      <p className="text-[11px] md:text-xl text-[#4A3527] text-left pl-4 leading-tight">
+      <p className="text-sm md:text-xl text-[#4A3527] text-left pl-4 leading-tight">
         {formatSponsorName(principalWomen[index])}
       </p>
     </div>
