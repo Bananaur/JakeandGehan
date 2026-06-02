@@ -58,7 +58,7 @@ export default function WeddingWebsiteV6() {
     },
     {
       title: "Venue",
-      text: "Villa Cruz Nature's Resort, Balud, San Roque, Northern Samar.",
+      text: "Villa Cruz Nature's Resort, Balud, San Roque Northern Samar.",
       image:
       "/Venue-garden.jpg",
       page: "venue" as Page,
