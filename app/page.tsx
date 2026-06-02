@@ -772,7 +772,7 @@
       "MRS. LILIBETH MENGORIA",
       "MRS. FLORIZA ACEDERA",
       "MRS. FE SIERVO",
-      "MRS. CAROL EPING",
+      "MRS. CAROL SOSING",
       "DR. EMMA MERINO",
       "MRS. EMMA LEBECO",
       "MRS. ILLUMINADA SALAZAR",
@@ -820,7 +820,18 @@
         ))}
       </div>
     )
-
+    const formatSponsorName = (name: string) => {
+      const parts = name.trim().split(" ")
+      const lastName = parts.pop()
+      const firstNames = parts.join(" ")
+    
+      return (
+        <>
+          <span className="block">{firstNames}</span>
+          <span className="block">{lastName}</span>
+        </>
+      )
+    }
     return (
       <div className="max-w-6xl mx-auto space-y-10">
         <div className="bg-white/85 rounded-[2rem] p-8 md:p-10 shadow-xl border border-[#F1D3A2] text-center">
@@ -863,19 +874,19 @@
     </p>
   </div>
 
-  <div className="space-y-2">
-    {principalMen.map((ninong, index) => (
-      <div key={ninong} className="grid grid-cols-2 gap-4">
-        <p className="text-sm md:text-xl text-[#4A3527] text-right pr-2 md:pr-8">
-    {ninong}
-  </p>
+  <div className="space-y-3">
+  {principalMen.map((ninong, index) => (
+    <div key={ninong} className="grid grid-cols-2 gap-4">
+      <p className="text-[11px] md:text-xl text-[#4A3527] text-right pr-4 leading-tight">
+        {formatSponsorName(ninong)}
+      </p>
 
-  <p className="text-sm md:text-xl text-[#4A3527] text-left pl-2 md:pl-8">
-    {principalWomen[index]}
-  </p>
-      </div>
-    ))}
-  </div>
+      <p className="text-[11px] md:text-xl text-[#4A3527] text-left pl-4 leading-tight">
+        {formatSponsorName(principalWomen[index])}
+      </p>
+    </div>
+  ))}
+</div>
 
   <div className="mt-10">
     {/* Mobile Layout */}
