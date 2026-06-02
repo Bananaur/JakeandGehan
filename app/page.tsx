@@ -744,167 +744,167 @@
     )
   }
 
-  function Entourage() {
-    const principalMen = [
-      "PTR. LOWELL BARTE",
-      "PTR. BALTAZAR ALIDON",
-      "PTR. VALENTINO DACUNO",
-      "PTR. EDUARDO MENGORIA",
-      "ENGR. AMANCIO ACEDERA JR.",
-      "HON. OWEN LAMBERTO SIERVO",
-      "HON. FELIPE SOSING",
-      "MR. JUDY MERINO",
-      "MR. DANTE LOBOS",
-      "MR. ROMEO SALAZAR",
-      "MR. NORIEL JARITO",
-      "MR. JACINTO CANDOLE",
-      "MR. PHIL KAHOTEA",
-      "MR. WENDEL ANDRADE",
-      "DR. WENDELL UMALI",
-      "MR. RICHARD PAGUIO",
-      "MR. GERSON RECIPROCO",
-    ]
+    function Entourage() {
+      const principalMen = [
+        "PTR. LOWELL BARTE",
+        "PTR. BALTAZAR ALIDON",
+        "PTR. VALENTINO DACUNO",
+        "PTR. EDUARDO MENGORIA",
+        "ENGR. AMANCIO ACEDERA JR.",
+        "HON. OWEN LAMBERTO SIERVO",
+        "HON. FELIPE SOSING",
+        "MR. JUDY MERINO",
+        "MR. DANTE LOBOS",
+        "MR. ROMEO SALAZAR",
+        "MR. NORIEL JARITO",
+        "MR. JACINTO CANDOLE",
+        "MR. PHIL KAHOTEA",
+        "MR. WENDEL ANDRADE",
+        "DR. WENDELL UMALI",
+        "MR. RICHARD PAGUIO",
+        "MR. GERSON RECIPROCO",
+      ]
 
-    const principalWomen = [
-      "MRS. ANA BARTE",
-      "MRS. MERLYN ALIDON",
-      "DR. LAARNI DACUNO",
-      "MRS. LILIBETH MENGORIA",
-      "MRS. FLORIZA ACEDERA",
-      "MRS. FE SIERVO",
-      "MRS. CAROL SOSING",
-      "DR. EMMA MERINO",
-      "MRS. EMMA LEBECO",
-      "MRS. ILLUMINADA SALAZAR",
-      "MRS. BEBINA DOCEO",
-      "MRS. REMA CANDOLE",
-      "MRS. JENNY LUCBAN",
-      "MS. JULIE DULFO",
-      "MRS. LEIDA VILLANUEVA",
-      "MRS. MICHELLE PAGUIO",
-      "MRS. GERSON RECIPROCO",
-    ]
+      const principalWomen = [
+        "MRS. ANA BARTE",
+        "MRS. MERLYN ALIDON",
+        "DR. LAARNI DACUNO",
+        "MRS. LILIBETH MENGORIA",
+        "MRS. FLORIZA ACEDERA",
+        "MRS. FE SIERVO",
+        "MRS. CAROL SOSING",
+        "DR. EMMA MERINO",
+        "MRS. EMMA LEBECO",
+        "MRS. ILLUMINADA SALAZAR",
+        "MRS. BEBINA DOCEO",
+        "MRS. REMA CANDOLE",
+        "MRS. JENNY LUCBAN",
+        "MS. JULIE DULFO",
+        "MRS. LEIDA VILLANUEVA",
+        "MRS. MICHELLE PAGUIO",
+        "MRS. GERSON RECIPROCO",
+      ]
 
-    const groomsmen = [
-      "APRIL CALEB OBIADO",
-      "ROYETTE BALANQUIT",
-      "SAMSON NEONES",
-      "GIO LAGARTO",
-      "RENZ CANDOLE",
-      "MARVIE TENEDERO",
-      "JOHN MICHAEL GALUPO",
-      "IAN ROBERT ONG",
-      "RALPH LAWRENCE CUI",
-      "RAUL TEPACE",
-    ]
+      const groomsmen = [
+        "APRIL CALEB OBIADO",
+        "ROYETTE BALANQUIT",
+        "SAMSON NEONES",
+        "GIO LAGARTO",
+        "RENZ CANDOLE",
+        "MARVIE TENEDERO",
+        "JOHN MICHAEL GALUPO",
+        "IAN ROBERT ONG",
+        "RALPH LAWRENCE CUI",
+        "RAUL TEPACE",
+      ]
 
-    const bridesmaids = [
-      "DEBORAH ANN DACUNO",
-      "BEVERLY CLARK OBIADO",
-      "XYLEEN KIM ACEDERA",
-      "XIANNE RIZZA ACEDERA",
-      "MISCHA CASSANDRA ACEDERA",
-      "JELLYCA PINCA",
-      "JAMILLE PINCA",
-      "JOMARIE TAN",
-      "JEAN OBIADO",
-      "ANFEL JOY DUMORAN",
-    ]
+      const bridesmaids = [
+        "DEBORAH ANN DACUNO",
+        "BEVERLY CLARK OBIADO",
+        "XYLEEN KIM ACEDERA",
+        "XIANNE RIZZA ACEDERA",
+        "MISCHA CASSANDRA ACEDERA",
+        "JELLYCA PINCA",
+        "JAMILLE PINCA",
+        "JOMARIE TAN",
+        "JEAN OBIADO",
+        "ANFEL JOY DUMORAN",
+      ]
 
-    const NameList = ({ names }: { names: string[] }) => (
-      <div className="space-y-1">
-        {names.map((name) => (
-          <p key={name} className="text-sm md:text-xl text-[#4A3527] tracking-wide">
-            {name}
-          </p>
-        ))}
-      </div>
-    )
-    const formatSponsorName = (name: string) => {
-      const parts = name.trim().split(" ")
-      const lastName = parts.pop()
-      const firstNames = parts.join(" ")
-    
-      return (
-        <>
-          <span className="block">{firstNames}</span>
-          <span className="block">{lastName}</span>
-        </>
+      const NameList = ({ names }: { names: string[] }) => (
+        <div className="space-y-1">
+          {names.map((name) => (
+            <p key={name} className="text-sm md:text-xl text-[#4A3527] tracking-wide">
+              {name}
+            </p>
+          ))}
+        </div>
       )
-    }
-    return (
-      <div className="max-w-6xl mx-auto space-y-10">
-        <div className="bg-white/85 rounded-[2rem] p-8 md:p-10 shadow-xl border border-[#F1D3A2] text-center">
-          <p className="uppercase tracking-[0.25em] text-[#9A5B3F] text-xs mb-3">
-            Officiating Minister
-          </p>
-          <h3 className="text-sm md:text-2xl text-[#4A3527]">
-            PTR. LOWELL BARTE
-          </h3>
-        </div>
-
-        <div className="grid md:grid-cols-2 gap-8">
-          <div className="bg-white/85 rounded-[2rem] p-8 shadow-lg border border-[#F1D3A2] text-center">
-            <p className="uppercase tracking-[0.25em] text-[#9A5B3F] text-xs mb-5">
-              Parents of the Groom
+      const formatSponsorName = (name: string) => {
+        const parts = name.trim().split(" ")
+        const lastName = parts.pop()
+        const firstNames = parts.join(" ")
+      
+        return (
+          <>
+            <span className="block">{firstNames}</span>
+            <span className="block">{lastName}</span>
+          </>
+        )
+      }
+      return (
+        <div className="max-w-6xl mx-auto space-y-10">
+          <div className="bg-white/85 rounded-[2rem] p-8 md:p-10 shadow-xl border border-[#F1D3A2] text-center">
+            <p className="uppercase tracking-[0.25em] text-[#9A5B3F] text-xs mb-3">
+              Officiating Minister
             </p>
-            <NameList names={["MR. WILLIAM M. PINCA", "MRS. ALICIA PINCA"]} />
+            <h3 className="text-sm md:text-2xl text-[#4A3527]">
+              PTR. LOWELL BARTE
+            </h3>
           </div>
 
-          <div className="bg-white/85 rounded-[2rem] p-8 shadow-lg border border-[#F1D3A2] text-center">
-            <p className="uppercase tracking-[0.25em] text-[#9A5B3F] text-xs mb-5">
-              Parents of the Bride
-            </p>
-            <NameList names={["MR. ALEBRO ANDREW BROZAS", "MRS. MARCELA BROZAS"]} />
+          <div className="grid md:grid-cols-2 gap-8">
+            <div className="bg-white/85 rounded-[2rem] p-8 shadow-lg border border-[#F1D3A2] text-center">
+              <p className="uppercase tracking-[0.25em] text-[#9A5B3F] text-xs mb-5">
+                Parents of the Groom
+              </p>
+              <NameList names={["MR. WILLIAM M. PINCA", "MRS. ALICIA PINCA"]} />
+            </div>
+
+            <div className="bg-white/85 rounded-[2rem] p-8 shadow-lg border border-[#F1D3A2] text-center">
+              <p className="uppercase tracking-[0.25em] text-[#9A5B3F] text-xs mb-5">
+                Parents of the Bride
+              </p>
+              <NameList names={["MR. ALEBRO ANDREW BROZAS", "MRS. MARCELA BROZAS"]} />
+            </div>
           </div>
-        </div>
 
-        <div className="bg-white/85 rounded-[2rem] p-8 md:p-10 shadow-xl border border-[#F1D3A2] text-center">
-    <h3 className="text-4xl md:text-5xl text-[#4A3527] mb-8">
-      Principal Sponsors
-    </h3>
+          <div className="bg-white/85 rounded-[2rem] p-8 md:p-10 shadow-xl border border-[#F1D3A2] text-center">
+      <h3 className="text-4xl md:text-5xl text-[#4A3527] mb-8">
+        Principal Sponsors
+      </h3>
 
-    <div className="grid grid-cols-2 gap-4 mb-6">
-    <p className="uppercase tracking-[0.25em] text-[#9A5B3F] text-xs text-center">
-      Ninong
-    </p>
-
-    <p className="uppercase tracking-[0.25em] text-[#9A5B3F] text-xs text-center">
-      Ninang
-    </p>
-  </div>
-
-  <div className="space-y-3">
-  {principalMen.map((ninong, index) => (
-    <div key={ninong} className="grid grid-cols-2 gap-4">
-      <p className="text-sm md:text-xl text-[#4A3527] text-right pr-4 leading-tight">
-        {formatSponsorName(ninong)}
+      <div className="grid grid-cols-2 gap-4 mb-6">
+      <p className="uppercase tracking-[0.25em] text-[#9A5B3F] text-xs text-center">
+        Ninong
       </p>
 
-      <p className="text-sm md:text-xl text-[#4A3527] text-left pl-4 leading-tight">
-        {formatSponsorName(principalWomen[index])}
+      <p className="uppercase tracking-[0.25em] text-[#9A5B3F] text-xs text-center">
+        Ninang
       </p>
     </div>
-  ))}
-</div>
 
-  <div className="mt-10">
-    {/* Mobile Layout */}
-    <div className="md:hidden">
-    <div className="grid grid-cols-[1fr_1.3fr] gap-2 text-center">
-        <p className="text-sm text-[#4A3527]">
-          MRS. SOLEDAD TAN
+    <div className="space-y-3">
+    {principalMen.map((ninong, index) => (
+      <div key={ninong} className="grid grid-cols-2 gap-4">
+        <p className="text-sm md:text-xl text-[#4A3527] text-right pr-4 leading-tight">
+          {formatSponsorName(ninong)}
         </p>
 
-        <p className="text-sm text-[#4A3527] whitespace-nowrap">
-  MRS. SARITA MORALES
-</p>
+        <p className="text-sm md:text-xl text-[#4A3527] text-left pl-4 leading-tight">
+          {formatSponsorName(principalWomen[index])}
+        </p>
       </div>
+    ))}
+  </div>
 
-      <p className="text-sm text-[#4A3527] text-center mt-3">
-        Mrs. ELSA ACEDERA
+  <div className="mt-10">
+  {/* Mobile Layout */}
+  <div className="md:hidden">
+    <div className="grid grid-cols-2 gap-2 text-center">
+      <p className="text-xs text-[#4A3527] whitespace-nowrap">
+        MRS. SOLEDAD TAN
+      </p>
+
+      <p className="text-xs text-[#4A3527] whitespace-nowrap">
+        MRS. SARITA MORALES
       </p>
     </div>
+
+    <p className="text-sm text-[#4A3527] text-center mt-3">
+      MRS. ELSA ACEDERA
+    </p>
+  </div>
 
     {/* Desktop Layout */}
     <div className="hidden md:grid md:grid-cols-3 md:gap-4 text-center">
