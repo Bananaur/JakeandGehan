@@ -402,6 +402,10 @@
     <p className="text-lg md:text-2xl mb-10 text-[#2E1F17]">
       July 14, 2026
     </p>
+    
+    <p className="text-lg md:text-2xl mb-10 text-[#2E1F17]">
+      2:00 PM
+    </p>
 
     <a
       href="https://www.google.com/maps/search/?api=1&query=Villa%20Cruz%20Nature%27s%20Resort%20Balud%20San%20Roque%20Northern%20Samar"
