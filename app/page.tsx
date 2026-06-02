@@ -18,16 +18,17 @@
     | "confirmation"
     | "thankyou"
 
-  export default function WeddingWebsiteV6() {
-    const [page, setPage] = useState<Page>("home")
-    const weddingDate = new Date("2026-07-14T14:30:00").getTime()
-    const [timeLeft, setTimeLeft] = useState({
-      days: 0,
-      hours: 0,
-      minutes: 0,
-      seconds: 0,
-    })
-
+    export default function WeddingWebsiteV6() {
+      const [page, setPage] = useState<Page>("home")
+      const [mobileMenuOpen, setMobileMenuOpen] = useState(false)
+  
+      const weddingDate = new Date("2026-07-14T14:30:00").getTime()
+      const [timeLeft, setTimeLeft] = useState({
+        days: 0,
+        hours: 0,
+        minutes: 0,
+        seconds: 0,
+      })
     useEffect(() => {
       const timer = setInterval(() => {
         const distance = weddingDate - new Date().getTime()
