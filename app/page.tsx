@@ -320,7 +320,7 @@
 
               <div className="absolute -bottom-5 left-1/2 -translate-x-1/2 bg-[#F7E7CE] px-6 py-2 rounded-full shadow-md border border-[#F1D3A2]">
                 <p className="text-[#9A5B3F] text-xs uppercase tracking-[0.2em] whitespace-nowrap">
-                  Our forever starts here
+                  18 years TO FOREVER
                 </p>
               </div>
             </div>
