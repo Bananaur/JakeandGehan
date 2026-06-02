@@ -449,7 +449,7 @@
   
       <p className="uppercase tracking-[0.3em] text-[#9A5B3F] text-xs md:text-sm mt-8 mb-6">
     The Entourage
-  </p><p className="uppercase tracking-[0.3em] text-[#9A5B3F] text-m md:text-sm mb-2">
+  </p><p className="uppercase tracking-[0.3em] text-[#9A5B3F] text-lg md:text-sm mb-2">
     Pinca &amp; Brozas
   </p>
 
@@ -459,7 +459,7 @@
     Nuptials
   </h2>
 
-  <p className="text-[#6F4E37] text-l md:text-lg italic">
+  <p className="text-[#6F4E37] text-lg md:text-xl italic">
     With The People We Love
   </p>
 </div>
