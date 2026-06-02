@@ -896,9 +896,9 @@
           MRS. SOLEDAD TAN
         </p>
 
-        <p className="text-sm text-[#4A3527]">
-          MRS. SARITA MORALES
-        </p>
+        <p className="text-sm text-[#4A3527] whitespace-nowrap">
+  MRS. SARITA MORALES
+</p>
       </div>
 
       <p className="text-sm text-[#4A3527] text-center mt-3">
