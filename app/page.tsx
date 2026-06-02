@@ -174,7 +174,7 @@ export default function WeddingWebsiteV6() {
               <p className="text-[#FFF3D6] mt-5 text-xl md:text-2xl leading-relaxed">
   Villa Cruz Nature&apos;s Resort
   <br />
-  Balud, San Roque, Northern Samar
+  Balud, San Roque Northern Samar
 </p>
 
               <p className="text-[#FFF3D6] uppercase tracking-[0.22em] text-base md:text-xl mt-10 mb-10">
