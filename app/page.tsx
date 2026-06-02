@@ -146,16 +146,18 @@ export default function WeddingWebsiteV6() {
   </p>
 </div>
 
-              <h1
-  className={`${greatVibes.className} text-white mb-12`}
+<h1
+  className={`${greatVibes.className} text-white mb-12 text-center`}
   style={{
-    fontSize: "clamp(5.5rem, 13vw, 11rem)",
-    lineHeight: "0.9",
+    fontSize: "clamp(4.5rem, 18vw, 11rem)",
+    lineHeight: "0.85",
     letterSpacing: "0.03em",
     textShadow: "0 4px 20px rgba(0,0,0,0.18)",
   }}
 >
-  Jake & Gehan
+  <span className="block md:inline">Jake</span>
+  <span className="block md:inline md:mx-5">&amp;</span>
+  <span className="block md:inline">Gehan</span>
 </h1>
 
               <div className="bg-[#4A3527]/40 backdrop-blur-md rounded-[2rem] p-6 md:p-8 max-w-3xl mx-auto border border-[#F7DFA7]/25 shadow-2xl">
