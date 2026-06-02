@@ -799,19 +799,21 @@ function Entourage() {
   ))}
 </div>
 
-  <div className="mt-10 grid md:grid-cols-3 gap-6 text-center">
-    <p className="text-xs md:text-xl text-[#4A3527]">
-      MRS. SOLEDAD TAN
+<div className="md:grid md:grid-cols-3 md:gap-4 text-center">
+  <div className="grid grid-cols-2 gap-4 md:contents">
+    <p className="text-[11px] md:text-xl text-[#4A3527]">
+      Mrs. Soledad Tan
     </p>
 
-    <p className="text-xs md:text-xl text-[#4A3527]">
-      MRS. ELSA ACEDERA
-    </p>
-
-    <p className="text-xs md:text-xl text-[#4A3527]">
-      MRS. SARITA MORALES
+    <p className="text-[11px] md:text-xl text-[#4A3527]">
+      Mrs. Sarita Morales
     </p>
   </div>
+
+  <p className="text-[11px] md:text-xl text-[#4A3527] mt-2 md:mt-0">
+    Mrs. Elsa Acedera
+  </p>
+</div>
 </div>
 
       <div className="grid grid-cols-2 gap-4 md:gap-8">
