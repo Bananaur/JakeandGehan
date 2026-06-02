@@ -686,7 +686,7 @@
             </p>
           </div>
         
-          <div className="mt-2 md:mt-0 flex-1 text-right">
+          <div className="mt-2 md:mt-0 flex-1 text-center md:text-right">
     <p className="text-xl md:text-2xl text-[#4A3527]">
       {event}
     </p>
