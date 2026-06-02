@@ -100,32 +100,109 @@
         style={{ fontFamily: "'The Seasons', Georgia, serif" }}
       >
         <nav className="fixed top-0 left-0 right-0 z-50 bg-[#FFF7ED]/90 backdrop-blur-md border-b border-[#D9A441]/30">
-          <div className="max-w-7xl mx-auto px-5 md:px-6 py-4 flex justify-between items-center">
-            <button
-              onClick={() => setPage("home")}
-              className="text-xs uppercase tracking-[0.2em] text-[#4A3527]"
-            >
-              Home
-            </button>
+  <div className="max-w-7xl mx-auto px-5 md:px-6 py-4 flex justify-between items-center">
+    <button
+      onClick={() => {
+        setPage("home")
+        setMobileMenuOpen(false)
+      }}
+      className="text-xs uppercase tracking-[0.2em] text-[#4A3527]"
+    >
+      Home
+    </button>
 
-            <div className="hidden md:flex gap-6 text-xs uppercase tracking-[0.18em] text-[#4A3527]">
-              <button onClick={() => setPage("timeline")}>Timeline</button>
-              <button onClick={() => setPage("venue")}>Venue</button>
-              <button onClick={() => setPage("attire")}>Attire</button>
-              <button onClick={() => setPage("entourage")}>Entourage</button>
-              <button onClick={() => setPage("request")}>Request</button>
-              <button onClick={() => setPage("confirmation")}>Attendance</button>
-              <button onClick={() => setPage("thankyou")}>Thank You</button>
-            </div>
+    <div className="hidden md:flex gap-6 text-xs uppercase tracking-[0.18em] text-[#4A3527]">
+      <button onClick={() => setPage("timeline")}>Timeline</button>
+      <button onClick={() => setPage("venue")}>Venue</button>
+      <button onClick={() => setPage("attire")}>Attire</button>
+      <button onClick={() => setPage("entourage")}>Entourage</button>
+      <button onClick={() => setPage("request")}>Request</button>
+      <button onClick={() => setPage("confirmation")}>Attendance</button>
+      <button onClick={() => setPage("thankyou")}>Thank You</button>
+    </div>
 
-            <button
-              onClick={() => setPage("confirmation")}
-              className="md:hidden text-xs uppercase tracking-[0.18em] text-[#4A3527]"
-            >
-              RSVP
-            </button>
-          </div>
-        </nav>
+    <button
+      onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
+      className="md:hidden text-xs uppercase tracking-[0.18em] text-[#4A3527]"
+    >
+      Menu
+    </button>
+  </div>
+
+  {mobileMenuOpen && (
+    <div className="md:hidden px-5 pb-5 flex flex-col gap-4 text-xs uppercase tracking-[0.18em] text-[#4A3527] bg-[#FFF7ED]/95">
+      <button
+        onClick={() => {
+          setPage("timeline")
+          setMobileMenuOpen(false)
+        }}
+        className="text-left border-b border-[#D9A441]/20 pb-3"
+      >
+        Timeline
+      </button>
+
+      <button
+        onClick={() => {
+          setPage("venue")
+          setMobileMenuOpen(false)
+        }}
+        className="text-left border-b border-[#D9A441]/20 pb-3"
+      >
+        Venue
+      </button>
+
+      <button
+        onClick={() => {
+          setPage("attire")
+          setMobileMenuOpen(false)
+        }}
+        className="text-left border-b border-[#D9A441]/20 pb-3"
+      >
+        Attire
+      </button>
+
+      <button
+        onClick={() => {
+          setPage("entourage")
+          setMobileMenuOpen(false)
+        }}
+        className="text-left border-b border-[#D9A441]/20 pb-3"
+      >
+        Entourage
+      </button>
+
+      <button
+        onClick={() => {
+          setPage("request")
+          setMobileMenuOpen(false)
+        }}
+        className="text-left border-b border-[#D9A441]/20 pb-3"
+      >
+        Request
+      </button>
+
+      <button
+        onClick={() => {
+          setPage("confirmation")
+          setMobileMenuOpen(false)
+        }}
+        className="text-left border-b border-[#D9A441]/20 pb-3"
+      >
+        Attendance
+      </button>
+
+      <button
+        onClick={() => {
+          setPage("thankyou")
+          setMobileMenuOpen(false)
+        }}
+        className="text-left border-b border-[#D9A441]/20 pb-3"
+      >
+        Thank You
+      </button>
+    </div>
+  )}
+</nav>
 
         {page === "home" && (
           <>
