@@ -448,9 +448,11 @@ export default function WeddingWebsiteV6() {
       </p>
 
       <div className="mt-10">
-        <p className={`${greatVibes.className} text-5xl md:text-7xl text-[#9A5B3F]`}>
-          Jake & Gehan
-        </p>
+      <p className={`${greatVibes.className} text-6xl md:text-8xl leading-tight`}>
+  <span className="block md:inline">Jake</span>
+  <span className="block md:inline">&amp;</span>
+  <span className="block md:inline">Gehan</span>
+</p>
       </div>
     </div>
   </section>
