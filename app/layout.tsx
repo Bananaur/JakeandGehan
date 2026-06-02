@@ -1,39 +1,36 @@
-import './globals.css'
-import type { Metadata } from 'next'
-import { Inter } from 'next/font/google'
-
-const inter = Inter({ subsets: ['latin'] })
+import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: 'You Are Invited!',
-  description: 'Join us as we celebrate the wedding of Jake & Gehan on July 14, 2026.',
+  metadataBase: new URL("https://jakeandgehan.vercel.app"),
+
+  title: "You Are Invited!",
+
+  description:
+    "Join us as we celebrate the wedding of Jake & Gehan on July 14, 2026 at Villa Cruz Nature's Resort.",
 
   openGraph: {
-    title: 'You Are Invited!',
-    description: 'Join us as we celebrate the wedding of Jake & Gehan on July 14, 2026.',
+    title: "You Are Invited!",
+    description:
+      "Join us as we celebrate the wedding of Jake & Gehan on July 14, 2026 at Villa Cruz Nature's Resort.",
+    url: "https://jakeandgehan.vercel.app",
+    siteName: "Jake & Gehan Wedding",
     images: [
-      'https://i.imgur.com/jCQnuT0.png',
+      {
+        url: "/og-image.png",
+        width: 1200,
+        height: 630,
+        alt: "Jake & Gehan Wedding",
+      },
     ],
+    locale: "en_US",
+    type: "website",
   },
 
   twitter: {
-    card: 'summary_large_image',
-    title: 'You Are Invited!',
-    description: 'Join us as we celebrate the wedding of Jake & Gehan on July 14, 2026.',
-    images: [
-      'https://i.imgur.com/jCQnuT0.png',
-    ],
+    card: "summary_large_image",
+    title: "You Are Invited!",
+    description:
+      "Join us as we celebrate the wedding of Jake & Gehan on July 14, 2026 at Villa Cruz Nature's Resort.",
+    images: ["/og-image.png"],
   },
-}
-
-export default function RootLayout({
-  children,
-}: {
-  children: React.ReactNode
-}) {
-  return (
-    <html lang="en">
-      <body className={inter.className}>{children}</body>
-    </html>
-  )
-}
+};
