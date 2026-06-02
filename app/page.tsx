@@ -783,7 +783,7 @@ function Entourage() {
 
       <div className="space-y-3">
         {principalMen.map((name) => (
-          <p key={name} className="text-xs md:text-xl text-[#4A3527]">
+          <p key={name} className="text-[11px] md:text-xl text-[#4A3527]">
             {name}
           </p>
         ))}
