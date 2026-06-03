@@ -459,16 +459,18 @@
   </h2>
 
   <div className="mt-10 md:mt-12 text-[#9A5B3F]">
-  <p className={`${greatVibes.className} text-2xl md:text-5xl text-[#6F4E37] whitespace-nowrap`}>
+  <p
+    className={`${greatVibes.className} text-2xl md:text-5xl text-[#6F4E37] whitespace-nowrap`}
+  >
     Pinca
-    <span className="mx-2 md:mx-6">&amp;</span>
+    <span className="mx-2 md:mx-8">&amp;</span>
     Brozas
   </p>
 
-    <p className="uppercase tracking-[0.18em] text-m md:text-base mt-1 whitespace-nowrap">
-      Nuptials
-    </p>
-  </div>
+  <p className="uppercase tracking-[0.18em] text-[11px] md:text-base mt-1 text-[#9A5B3F]">
+    Nuptials
+  </p>
+</div>
 </div>
 
       <Entourage />
