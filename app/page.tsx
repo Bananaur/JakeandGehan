@@ -262,9 +262,11 @@ const toggleMusic = () => {
 
 <p className="block md:inline text-[8rem] md:text-[11rem] leading-[0.8]">
   {" "}Gehan
-</p>
+  </p>
     </div>
   </div>
+
+  <div className="h-20 md:h-32"></div>
 
   <div className="bg-[#4A3527]/40 backdrop-blur-md rounded-[2rem] p-6 md:p-8 max-w-3xl mx-auto border border-[#F7DFA7]/25 shadow-2xl mt-20">
                   <p className="italic text-[#FFF8E8] text-l md:text-3xl leading-relaxed">
