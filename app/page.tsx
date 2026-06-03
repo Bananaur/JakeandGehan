@@ -1081,7 +1081,7 @@
           <p className="uppercase tracking-[0.35em] text-[#9A5B3F] text-sm mb-6">
             Attendance Confirmation
           </p>
-          <h2 className="text-4xl md:text-6xl text-[#4A3527] mb-6">
+          <h2 className="text-3xl md:text-4xl text-[#4A3527] mb-6">
             We Would Love To Celebrate With You!
           </h2>
           <p className="text-lg text-[#5C4434] mb-10">
