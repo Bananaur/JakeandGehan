@@ -235,7 +235,7 @@ const toggleMusic = () => {
               <div className="absolute inset-0 bg-gradient-to-b from-[#3D2B1F]/70 via-[#8F5A3A]/40 to-[#FFF7ED]" />
 
               <div className="relative z-10 text-center max-w-5xl">
-              <div className="flex flex-col items-center text-center mb-20">
+              <div className="flex flex-col items-center text-center mb-30">
     <div className="text-[#FFF3D6] uppercase tracking-[0.35em] mb-12">
       <p className="text-xl md:text-4xl">
         THE WEDDING
