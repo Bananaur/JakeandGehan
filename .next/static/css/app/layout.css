@@ -1109,6 +1109,12 @@ video {
 .pr-3 {
   padding-right: 0.75rem;
 }
+.pb-24 {
+  padding-bottom: 6rem;
+}
+.pt-10 {
+  padding-top: 2.5rem;
+}
 .text-left {
   text-align: left;
 }
@@ -1563,6 +1569,11 @@ body {
   .md\:px-6 {
     padding-left: 1.5rem;
     padding-right: 1.5rem;
+  }
+
+  .md\:py-24 {
+    padding-top: 6rem;
+    padding-bottom: 6rem;
   }
 
   .md\:pt-32 {
