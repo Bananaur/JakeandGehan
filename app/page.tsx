@@ -302,6 +302,30 @@ const toggleMusic = () => {
   </p>
 
                 <Countdown timeLeft={timeLeft} />
+                <div className="max-w-2xl mx-auto mt-10">
+  <div className="bg-white/80 rounded-[2rem] p-6 md:p-8 shadow-xl border border-[#F1D3A2] text-center">
+    <p className="uppercase tracking-[0.25em] text-[#9A5B3F] text-xs mb-3">
+      Listen to Our Music
+    </p>
+
+    <h3
+      className={`${greatVibes.className} text-3xl md:text-5xl text-[#4A3527] mb-2`}
+    >
+      'Til the End of Time
+    </h3>
+
+    <p className="text-[#9A5B3F] mb-5">
+      by Steve Green
+    </p>
+
+    <button
+      onClick={toggleMusic}
+      className="bg-[#4A3527]/90 text-[#FFF7ED] px-6 py-3 rounded-full shadow-xl border border-[#F1D3A2] text-xs uppercase tracking-[0.18em]"
+    >
+      {musicPlaying ? "Pause Music" : "Play Music"}
+    </button>
+  </div>
+</div>
 
               </div>
             </section>
