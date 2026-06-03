@@ -276,22 +276,6 @@
 
                 <Countdown timeLeft={timeLeft} />
 
-<div className="max-w-xl mx-auto mt-10">
-  <div className="bg-white/80 rounded-[2rem] p-6 shadow-lg border border-[#F1D3A2] text-center">
-    <p className="uppercase tracking-[0.25em] text-[#9A5B3F] text-xs mb-3">
-      Wedding Song
-    </p>
-
-    <p className="text-xl md:text-2xl text-[#4A3527] mb-4">
-      God Causes All Things to Grow
-    </p>
-
-    <audio controls className="w-full">
-      <source src="/wedding-song.mp3" type="audio/mpeg" />
-    </audio>
-  </div>
-</div>
-
 
               </div>
             </section>
