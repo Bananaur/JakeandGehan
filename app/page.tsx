@@ -939,7 +939,7 @@
             <p className="uppercase tracking-[0.25em] text-[#9A5B3F] text-xs mb-5">
               Best Man
             </p>
-            <NameList names={["JOHNMAR MERCADO"]} />
+            <NameList names={["ROYETTE BALANQUIT"]} />
           </div>
 
           <div className="bg-white/85 rounded-[2rem] p-8 shadow-lg border border-[#F1D3A2] text-center">
