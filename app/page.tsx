@@ -459,10 +459,10 @@
   </h2>
 
   <div className="mt-10 md:mt-12 text-[#9A5B3F]">
-  <p
-  className={`${greatVibes.className} text-4xl md:text-4xl text-[#6F4E37] whitespace-nowrap`}
->
-  Pinca &amp; Brozas
+  <p className={`${greatVibes.className} text-2xl md:text-5xl text-[#6F4E37] whitespace-nowrap`}>
+  Pinca
+  <span className="mx-2">&amp;</span>
+  Brozas
 </p>
 
     <p className="uppercase tracking-[0.18em] text-m md:text-base mt-1 whitespace-nowrap">
