@@ -282,7 +282,7 @@
     </p>
 
     <h3 className="text-2xl md:text-3xl text-[#4A3527] mb-5">
-      God Causes All Things to Grow
+    'Til The End Of Time
     </h3>
 
     <audio controls className="w-full">
