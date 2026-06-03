@@ -602,7 +602,8 @@
 
   function Countdown({
     timeLeft,
-  }: {meLeft: { days: number; hours: number; minutes: number; seconds: number }
+  }: {
+    timeLeft: { days: number; hours: number; minutes: number; seconds: number }
   }) {
     return (
       <div className="grid grid-cols-4 gap-2 sm:gap-4 max-w-xs sm:max-w-3xl mx-auto">
@@ -629,7 +630,6 @@
   }
 
   function PageShell({
-    ti
     title,
     subtitle,
     children,
