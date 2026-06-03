@@ -463,7 +463,7 @@
     className={`${greatVibes.className} text-3xl md:text-5xl text-[#6F4E37] whitespace-nowrap`}
   >
     Pinca
-    <span className="mx-2 md:mx-8">&amp;</span>
+    <span className="mx-2 md:mx-5">&amp;</span>
     Brozas
   </p>
 
