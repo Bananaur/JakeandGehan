@@ -684,6 +684,9 @@ video {
 .hidden {
   display: none;
 }
+.aspect-video {
+  aspect-ratio: 16 / 9;
+}
 .h-16 {
   height: 4rem;
 }

@@ -281,14 +281,25 @@
       Listen to Our Music
     </p>
 
-    <h3 className="text-2xl md:text-3xl text-[#4A3527] mb-5">
-    'Til The End Of Time
+    <h3
+      className={`${greatVibes.className} text-3xl md:text-5xl text-[#4A3527] mb-2`}
+    >
+      'Til the End of Time
     </h3>
 
-    <audio controls className="w-full">
-      <source src="/wedding-song.mp3" type="audio/mpeg" />
-      Your browser does not support the audio element.
-    </audio>
+    <p className="text-[#9A5B3F] mb-5">
+      by Steve Green
+    </p>
+
+    <div className="rounded-xl overflow-hidden">
+      <iframe
+        className="w-full aspect-video"
+        src="https://www.youtube.com/embed/Z0dapQeEI_I"
+        title="'Til the End of Time by Steve Green"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+        allowFullScreen
+      />
+    </div>
   </div>
 </div>
 
