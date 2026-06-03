@@ -229,7 +229,7 @@ const toggleMusic = () => {
           <>
             <section className="relative min-h-screen overflow-hidden flex items-center justify-center px-5 pt-24 pb-12">
             <div
-  className="absolute inset-0 bg-cover bg-[55%_30%] md:bg-center"
+  className="absolute inset-0 bg-cover bg-[53%_30%] md:bg-center"
   style={{ backgroundImage: `url(${heroImage})` }}
 />
               <div className="absolute inset-0 bg-gradient-to-b from-[#3D2B1F]/70 via-[#8F5A3A]/40 to-[#FFF7ED]" />
@@ -237,7 +237,7 @@ const toggleMusic = () => {
               <div className="relative z-10 text-center max-w-5xl">
               <div className="flex flex-col items-center text-center mb-5">
               <div className="text-[#FFF3D6] uppercase tracking-[0.35em] mb-24 mt-16">
-              <p className="text-white text-m md:text-xl">07.14.26</p>
+              <p className="text-white text-m md:text-xl mb-3">07.14.26</p>
       <p className="text-2xl md:text-4xl">
         THE WEDDING
       </p>
