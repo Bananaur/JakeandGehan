@@ -1348,6 +1348,10 @@ body {
     margin-top: 1.75rem;
   }
 
+  .md\:mt-12 {
+    margin-top: 3rem;
+  }
+
   .md\:inline {
     display: inline;
   }
