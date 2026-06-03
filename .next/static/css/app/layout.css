@@ -732,6 +732,9 @@ video {
 .max-w-xs {
   max-width: 20rem;
 }
+.max-w-xl {
+  max-width: 36rem;
+}
 .flex-1 {
   flex: 1 1 0%;
 }
@@ -915,6 +918,9 @@ video {
 }
 .bg-\[\#FFF7ED\]\/95 {
   background-color: rgb(255 247 237 / 0.95);
+}
+.bg-white\/80 {
+  background-color: rgb(255 255 255 / 0.8);
 }
 .bg-gradient-to-b {
   background-image: linear-gradient(to bottom, var(--tw-gradient-stops));
