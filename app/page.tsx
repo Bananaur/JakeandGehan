@@ -252,15 +252,15 @@ const toggleMusic = () => {
         textShadow: "0 4px 20px rgba(0,0,0,0.18)",
       }}
     >
-      <p className="text-[8rem] md:text-[11rem] leading-[0.75] tracking-[0.03em] md:tracking-normal text-left mb-4">
+      <p className="text-[8rem] md:text-[11rem] leading-[0.75] tracking-[0.03em] md:tracking-normal text-left mb-6">
   Jake
 </p>
 
-<p className="text-[5rem] md:text-[7rem] leading-[0.65] text-center my-4">
+<p className="text-[5rem] md:text-[7rem] leading-[0.65] text-center my-6">
   &
 </p>
 
-<p className="text-[8rem] md:text-[11rem] leading-[0.75] tracking-[0.03em] md:tracking-normal text-right mt-4">
+<p className="text-[8rem] md:text-[11rem] leading-[0.75] tracking-[0.03em] md:tracking-normal text-right mt-6">
   Gehan
 </p>
     </div>
