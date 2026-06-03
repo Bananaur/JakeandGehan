@@ -320,11 +320,11 @@ const toggleMusic = () => {
     </p>
 
     <button
-      onClick={toggleMusic}
-      className="bg-[#4A3527]/90 text-[#FFF7ED] px-6 py-3 rounded-full shadow-xl border border-[#F1D3A2] text-xs uppercase tracking-[0.18em]"
-    >
-      {musicPlaying ? "Pause Music" : "Play Music"}
-    </button>
+  onClick={toggleMusic}
+  className="fixed bottom-4 right-4 w-10 h-10 rounded-full"
+>
+  {musicPlaying ? "⏸" : "▶"}
+</button>
   </div>
 </div>
 
