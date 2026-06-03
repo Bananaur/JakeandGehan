@@ -228,10 +228,10 @@ const toggleMusic = () => {
         {page === "home" && (
           <>
             <section className="relative min-h-screen overflow-hidden flex items-center justify-center px-5 pt-24 pb-12">
-              <div
-                className="absolute inset-0 bg-cover bg-[center_35%] md:bg-center scale-105"
-                style={{ backgroundImage: `url(${heroImage})` }}
-              />
+            <div
+  className="absolute inset-0 bg-cover bg-center"
+  style={{ backgroundImage: `url(${heroImage})` }}
+/>
               <div className="absolute inset-0 bg-gradient-to-b from-[#3D2B1F]/70 via-[#8F5A3A]/40 to-[#FFF7ED]" />
 
               <div className="relative z-10 text-center max-w-5xl">
