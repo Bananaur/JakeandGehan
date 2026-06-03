@@ -254,15 +254,15 @@ const toggleMusic = () => {
 >
   {/* MOBILE */}
   <div className="md:hidden">
-    <p className="text-[6rem] leading-[0.75] tracking-[0.03em] text-left mb-6">
+    <p className="text-[7rem] leading-[0.75] tracking-[0.03em] text-left mb-6">
       Jake
     </p>
 
-    <p className="text-[5rem] leading-[0.65] text-center my-6">
+    <p className="text-[3rem] leading-[0.65] text-center my-6">
       &
     </p>
 
-    <p className="text-[6rem] leading-[0.75] tracking-[0.03em] text-right mt-6">
+    <p className="text-[7rem] leading-[0.75] tracking-[0.03em] text-right mt-6">
       Gehan
     </p>
   </div>
