@@ -1191,6 +1191,9 @@ video {
 .leading-\[0\.8\] {
   line-height: 0.8;
 }
+.leading-\[0\.65\] {
+  line-height: 0.65;
+}
 .tracking-\[0\.18em\] {
   letter-spacing: 0.18em;
 }
@@ -1618,6 +1621,10 @@ body {
   .md\:text-base {
     font-size: 1rem;
     line-height: 1.5rem;
+  }
+
+  .md\:text-\[7rem\] {
+    font-size: 7rem;
   }
 
   .md\:tracking-\[0\.35em\] {

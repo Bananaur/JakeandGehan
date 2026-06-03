@@ -247,23 +247,23 @@ const toggleMusic = () => {
     </div>
 
     <div
-      className={`${greatVibes.className} text-white text-center`}
-      style={{
-        textShadow: "0 4px 20px rgba(0,0,0,0.18)",
-      }}
-    >
-      <p className="block md:inline text-[8rem] md:text-[11rem] leading-[0.8] tracking-[0.03em] md:tracking-normal">
-  Jake{" "}
-</p>
+  className={`${greatVibes.className} text-white`}
+  style={{
+    textShadow: "0 4px 20px rgba(0,0,0,0.18)",
+  }}
+>
+  <p className="text-[8rem] md:text-[11rem] leading-[0.75] tracking-[0.03em] md:tracking-normal text-left">
+    Jake
+  </p>
 
-<p className="block md:inline text-[5.5rem] md:text-[8rem] leading-[0.75] mx-4">
-  &amp;
-</p>
+  <p className="text-[5rem] md:text-[7rem] leading-[0.65] text-center">
+    &
+  </p>
 
-<p className="block md:inline text-[8rem] md:text-[11rem] leading-[0.8] tracking-[0.03em] md:tracking-normal">
-  {" "}Gehan
-</p>
-    </div>
+  <p className="text-[8rem] md:text-[11rem] leading-[0.75] tracking-[0.03em] md:tracking-normal text-right">
+    Gehan
+  </p>
+</div>
   </div>
 
   <div className="h-20 md:h-32"></div>
