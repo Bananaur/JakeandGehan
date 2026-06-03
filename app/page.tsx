@@ -120,13 +120,6 @@ const toggleMusic = () => {
   preload="auto"
 />
 
-<button
-  onClick={toggleMusic}
-  className="fixed bottom-4 right-4 w-10 h-10 rounded-full"
->
-  {musicPlaying ? "⏸" : "▶"}
-</button>
-
         <nav className="fixed top-0 left-0 right-0 z-50 bg-[#FFF7ED]/90 backdrop-blur-md border-b border-[#D9A441]/30">
   <div className="max-w-7xl mx-auto px-5 md:px-6 py-4 flex justify-between items-center">
     <button
