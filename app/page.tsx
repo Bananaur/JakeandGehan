@@ -463,7 +463,7 @@
     Nuptials
   </h2>
 
-  <p className="text-[#6F4E37] text-lg md:text-xl italic">
+  <p className="text-[#6F4E37] text-lg md:text-xl itali">
     With The People We Love
   </p>
 </div>
@@ -507,9 +507,9 @@
           Attendance Confirmation
         </p>
 
-        <h2 className="text-4xl md:text-7xl text-[#4A3527] tracking-wide leading-tight">
-          We Would Love To Celebrate With You
-        </h2>
+        <h2 className="text-4xl md:text-5xl text-[#4A3527] mb-8">
+  With The People We Love
+</h2>
       </div>
 
       <AttendanceForm />
