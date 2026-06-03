@@ -266,7 +266,7 @@ const toggleMusic = () => {
     </div>
   </div>
 
-                <div className="bg-[#4A3527]/40 backdrop-blur-md rounded-[2rem] p-6 md:p-8 max-w-3xl mx-auto border border-[#F7DFA7]/25 shadow-2xl">
+  <div className="bg-[#4A3527]/40 backdrop-blur-md rounded-[2rem] p-6 md:p-8 max-w-3xl mx-auto border border-[#F7DFA7]/25 shadow-2xl mt-12">
                   <p className="italic text-[#FFF8E8] text-l md:text-3xl leading-relaxed">
                     “He hath made every thing beautiful in His time”
                   </p>
