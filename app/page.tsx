@@ -275,6 +275,22 @@
   </p>
 
                 <Countdown timeLeft={timeLeft} />
+                <div className="max-w-2xl mx-auto mt-10">
+  <div className="bg-white/80 rounded-[2rem] p-6 md:p-8 shadow-xl border border-[#F1D3A2] text-center">
+    <p className="uppercase tracking-[0.25em] text-[#9A5B3F] text-xs mb-3">
+      Listen to Our Music
+    </p>
+
+    <h3 className="text-2xl md:text-3xl text-[#4A3527] mb-5">
+      God Causes All Things to Grow
+    </h3>
+
+    <audio controls className="w-full">
+      <source src="/wedding-song.mp3" type="audio/mpeg" />
+      Your browser does not support the audio element.
+    </audio>
+  </div>
+</div>
 
 
               </div>
