@@ -449,23 +449,24 @@
           "linear-gradient(rgba(255,247,237,0.88), rgba(255,247,237,0.88)), url('https://i.imgur.com/sFufozo.jpeg')",
       }}
     >
-      <div className="text-center mb-12 md:mb-14">
-  
-      <p className="uppercase tracking-[0.3em] text-[#9A5B3F] text-xs md:text-sm mt-8 mb-6">
+      <div className="text-center mb-16 md:mb-20">
+  <p className="uppercase tracking-[0.3em] text-[#9A5B3F] text-xs md:text-sm mb-4">
     The Entourage
-  </p><p className="uppercase tracking-[0.3em] text-[#9A5B3F] text-lg md:text-sm mb-2">
-    Pinca &amp; Brozas
   </p>
 
-  <h2
-    className={`${greatVibes.className} text-5xl md:text-4xl text-[#4A3527] leading-tight`}
-  >
-    Nuptials
+  <h2 className="text-4xl md:text-7xl text-[#4A3527] tracking-wide leading-tight">
+    With The People We Love
   </h2>
 
-  <h2 className="text-4xl md:text-7xl text-[#4A3527] tracking-wide leading-tight">
-  With The People We Love
-</h2>
+  <div className="mt-5 md:mt-7 text-[#9A5B3F]">
+    <p className="uppercase tracking-[0.22em] text-[10px] md:text-sm whitespace-nowrap">
+      Pinca &amp; Brozas
+    </p>
+
+    <p className="uppercase tracking-[0.18em] text-[11px] md:text-base mt-1 whitespace-nowrap">
+      Nuptials
+    </p>
+  </div>
 </div>
 
       <Entourage />

@@ -659,6 +659,12 @@ video {
 .mt-6 {
   margin-top: 1.5rem;
 }
+.mb-16 {
+  margin-bottom: 4rem;
+}
+.mt-1 {
+  margin-top: 0.25rem;
+}
 .block {
   display: block;
 }
@@ -1334,6 +1340,14 @@ body {
     margin-top: 0px;
   }
 
+  .md\:mb-20 {
+    margin-bottom: 5rem;
+  }
+
+  .md\:mt-7 {
+    margin-top: 1.75rem;
+  }
+
   .md\:inline {
     display: inline;
   }
@@ -1512,6 +1526,11 @@ body {
 
   .md\:text-\[8rem\] {
     font-size: 8rem;
+  }
+
+  .md\:text-base {
+    font-size: 1rem;
+    line-height: 1.5rem;
   }
 
   .md\:tracking-\[0\.35em\] {
