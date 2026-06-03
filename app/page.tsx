@@ -117,6 +117,7 @@ const toggleMusic = () => {
   ref={audioRef}
   src="/til-the-end-of-time.mp3"
   loop
+  preload="auto"
 />
 
 <button
