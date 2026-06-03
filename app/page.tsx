@@ -463,9 +463,9 @@
     Nuptials
   </h2>
 
-  <p className="text-[#6F4E37] text-lg md:text-xl italic">
-    With The People We Love
-  </p>
+  <h2 className="text-4xl md:text-7xl text-[#4A3527] tracking-wide leading-tight">
+  With The People We Love
+</h2>
 </div>
 
       <Entourage />
