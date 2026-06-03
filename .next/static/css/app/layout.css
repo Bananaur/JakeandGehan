@@ -1212,6 +1212,9 @@ video {
 .tracking-wide {
   letter-spacing: 0.025em;
 }
+.tracking-\[0\.03em\] {
+  letter-spacing: 0.03em;
+}
 .text-\[\#2E1F17\] {
   --tw-text-opacity: 1;
   color: rgb(46 31 23 / var(--tw-text-opacity));
@@ -1619,6 +1622,10 @@ body {
 
   .md\:tracking-\[0\.35em\] {
     letter-spacing: 0.35em;
+  }
+
+  .md\:tracking-normal {
+    letter-spacing: 0em;
   }
 }
 
