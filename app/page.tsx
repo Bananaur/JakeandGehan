@@ -534,7 +534,7 @@
         </p>
 
         <h2 className="text-4xl md:text-7xl text-[#4A3527] tracking-wide leading-tight">
-          From Our Hearts
+          Our Heartfelt Gratitude
         </h2>
       </div>
 
