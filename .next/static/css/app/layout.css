@@ -1031,6 +1031,9 @@ video {
 .bg-\[center_30\%\] {
   background-position: center 30%;
 }
+.bg-\[40\%_center\] {
+  background-position: 40% center;
+}
 .bg-no-repeat {
   background-repeat: no-repeat;
 }

@@ -410,7 +410,7 @@ const toggleMusic = () => {
 
   {page === "timeline" && (
     <section
-      className="min-h-screen pt-28 md:pt-32 pb-20 px-5 md:px-16 lg:px-32 bg-cover bg-center"
+      className="min-h-screen pt-28 md:pt-32 pb-20 px-5 md:px-16 lg:px-32 bg-cover bg-[40%_center]"
       style={{
         backgroundImage:
           "linear-gradient(rgba(255,247,237,0.82), rgba(255,247,237,0.82)), url('https://images.unsplash.com/photo-1519225421980-715cb0215aed?q=80&w=2000&auto=format&fit=crop')",
