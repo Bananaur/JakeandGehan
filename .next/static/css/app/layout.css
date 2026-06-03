@@ -1172,6 +1172,9 @@ video {
 .text-\[10px\] {
   font-size: 10px;
 }
+.text-\[10rem\] {
+  font-size: 10rem;
+}
 .font-bold {
   font-weight: 700;
 }
@@ -1633,6 +1636,10 @@ body {
 
   .md\:text-\[7rem\] {
     font-size: 7rem;
+  }
+
+  .md\:text-\[14rem\] {
+    font-size: 14rem;
   }
 
   .md\:tracking-\[0\.35em\] {
