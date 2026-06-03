@@ -799,29 +799,29 @@
       ]
 
       const groomsmen = [
-        "ROYETTE BALANQUIT",
-        "SAMSON NEONES",
-        "GIO LAGARTO",
-        "RENZ CANDOLE",
-        "MARVIE TENEDERO",
-        "JOHN MICHAEL GALUPO",
-        "IAN ROBERT ONG",
+        "JOHN MICHAEL CUI GALUPO",
         "RALPH LAWRENCE CUI",
-        "RAUL TEPACE",
+        "GIO LAGARTO",
         "APRIL CALEB OBIADO",
+        "RAUL POSO",
+        "JOHNMAR MERCADO",
+        "IAN ROBERT ONG",
+        "MARVIE TENEDERO",
+        "SAMSON NEONES",
+        "RENZ CANDOLE",
       ]
 
       const bridesmaids = [
-        "BEVERLY CLARK OBIADO",
-        "XYLEEN KIM ACEDERA",
-        "XIANNE RIZZA ACEDERA",
-        "MISCHA CASSANDRA ACEDERA",
-        "JELLYCA PINCA",
-        "JAMILLE PINCA",
+        "ANFEL JOY DUMORAN",
         "JOMARIE TAN",
         "JEAN OBIADO",
-        "ANFEL JOY DUMORAN",
         "DEBORAH ANN DACUNO",
+        "BEVERLY CLARK OBIADO",
+        "JELLYCA PINCA",
+        "XYLEEN KIM ACEDERA",
+        "JAMILLE PINCA",
+        "XIANNE RIZZA ACEDERA",
+        "MISCHA CASSANDRA ACEDERA",
       ]
 
       const NameList = ({ names }: { names: string[] }) => (
