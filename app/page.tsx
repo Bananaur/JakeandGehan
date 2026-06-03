@@ -1,6 +1,6 @@
   "use client"
 
-  import { useEffect, useState } from "react"
+  import { useState, useEffect, useRef } from "react"
   import { Great_Vibes } from "next/font/google"
 
   const greatVibes = Great_Vibes({
@@ -21,6 +21,34 @@
     export default function WeddingWebsiteV6() {
       const [page, setPage] = useState<Page>("home")
       const [mobileMenuOpen, setMobileMenuOpen] = useState(false)
+      const audioRef = useRef<HTMLAudioElement>(null)
+const [musicPlaying, setMusicPlaying] = useState(false)
+
+const toggleMusic = () => {
+  if (!audioRef.current) return
+
+  if (musicPlaying) {
+    audioRef.current.pause()
+    setMusicPlaying(false)
+  } else {
+    audioRef.current.play()
+    setMusicPlaying(true)
+  }
+}
+      const audioRef = useRef<HTMLAudioElement>(null)
+const [musicPlaying, setMusicPlaying] = useState(false)
+
+const toggleMusic = () => {
+  if (!audioRef.current) return
+
+  if (musicPlaying) {
+    audioRef.current.pause()
+    setMusicPlaying(false)
+  } else {
+    audioRef.current.play()
+    setMusicPlaying(true)
+  }
+}
   
       const weddingDate = new Date("2026-07-14T14:30:00").getTime()
       const [timeLeft, setTimeLeft] = useState({
@@ -99,6 +127,17 @@
         className="min-h-screen bg-[#FFF7ED] text-[#4A3527]"
         style={{ fontFamily: "'The Seasons', Georgia, serif" }}
       >
+        <audio
+  ref={audioRef}
+  src="/til-the-end-of-time.mp3"
+  loop
+/>
+<button
+  onClick={toggleMusic}
+  className="fixed bottom-5 right-5 z-[999] bg-white/90 backdrop-blur-md border border-[#F1D3A2] text-[#4A3527] px-4 py-3 rounded-full shadow-lg text-xs uppercase tracking-[0.18em]"
+>
+  {musicPlaying ? "Pause Music" : "Play Music"}
+</button>
         <nav className="fixed top-0 left-0 right-0 z-50 bg-[#FFF7ED]/90 backdrop-blur-md border-b border-[#D9A441]/30">
   <div className="max-w-7xl mx-auto px-5 md:px-6 py-4 flex justify-between items-center">
     <button
