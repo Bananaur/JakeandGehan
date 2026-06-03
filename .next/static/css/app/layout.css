@@ -1053,6 +1053,9 @@ video {
 .bg-\[60\%_30\%\] {
   background-position: 60% 30%;
 }
+.bg-\[50\%_30\%\] {
+  background-position: 50% 30%;
+}
 .bg-no-repeat {
   background-repeat: no-repeat;
 }
