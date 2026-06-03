@@ -1015,6 +1015,9 @@ video {
 .bg-center {
   background-position: center;
 }
+.bg-\[center_35\%\] {
+  background-position: center 35%;
+}
 .object-cover {
   -o-object-fit: cover;
      object-fit: cover;
@@ -1543,6 +1546,10 @@ body {
 
   .md\:gap-4 {
     gap: 1rem;
+  }
+
+  .md\:bg-center {
+    background-position: center;
   }
 
   .md\:p-10 {
