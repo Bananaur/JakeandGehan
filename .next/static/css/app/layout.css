@@ -1341,6 +1341,11 @@ body {
     margin-right: 2rem;
   }
 
+  .md\:mx-6 {
+    margin-left: 1.5rem;
+    margin-right: 1.5rem;
+  }
+
   .md\:mb-14 {
     margin-bottom: 3.5rem;
   }
