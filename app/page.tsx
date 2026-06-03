@@ -278,10 +278,10 @@ const toggleMusic = () => {
 </div>
   </div>
 
-  <div className="h-20 md:h-32"></div>
+  <div className="h-16 md:h-20"></div>
 
   <div className="bg-[#4A3527]/40 backdrop-blur-md rounded-[2rem] p-6 md:p-8 max-w-3xl mx-auto border border-[#F7DFA7]/25 shadow-2xl mt-20">
-                  <p className="italic text-[#FFF8E8] text-l md:text-3xl leading-relaxed">
+                  <p className="italic text-[#FFF8E8] text-xl md:text-3xl leading-relaxed">
                     “He hath made every thing beautiful in His time”
                   </p>
                   <p className="uppercase tracking-[0.25em] text-[#F7DFA7] mt-4 text-xs md:text-sm">
