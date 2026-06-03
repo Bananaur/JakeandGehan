@@ -310,7 +310,7 @@ const toggleMusic = () => {
     </p>
 
     <h3
-      className={`${greatVibes.className} text-3xl md:text-5xl text-[#4A3527] mt-2 mb-4`}
+      className={`${greatVibes.className} text-3xl md:text-5xl text-[#4A3527] mb-2 tracking-wide`}
     >
       'Til the End of Time
     </h3>
