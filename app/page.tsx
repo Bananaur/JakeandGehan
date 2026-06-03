@@ -99,23 +99,6 @@
         className="min-h-screen bg-[#FFF7ED] text-[#4A3527]"
         style={{ fontFamily: "'The Seasons', Georgia, serif" }}
       >
-        <div className="fixed bottom-5 right-5 z-[999] w-[260px] bg-white/90 rounded-2xl shadow-xl border border-[#F1D3A2] p-3 text-center">
-  <p className="uppercase tracking-[0.2em] text-[10px] text-[#9A5B3F] mb-2">
-    Listen to Our Music
-  </p>
-
-  <p className="text-sm text-[#4A3527] mb-3">
-    'Til the End of Time · Steve Green
-  </p>
-
-  <iframe
-    className="w-full h-[145px] rounded-xl"
-    src="https://www.youtube-nocookie.com/embed/Z0dapQeEI_I"
-    title="'Til the End of Time by Steve Green"
-    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-    allowFullScreen
-  />
-</div>
         <nav className="fixed top-0 left-0 right-0 z-50 bg-[#FFF7ED]/90 backdrop-blur-md border-b border-[#D9A441]/30">
   <div className="max-w-7xl mx-auto px-5 md:px-6 py-4 flex justify-between items-center">
     <button
