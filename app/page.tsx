@@ -298,7 +298,7 @@ const toggleMusic = () => {
   </p>
 
                 <Countdown timeLeft={timeLeft} />
-                <div className="max-w-2xl mx-auto mt-10">
+                <div className="max-w-2xl mx-auto mt-20">
   <div className="bg-white/80 rounded-[2rem] p-6 md:p-8 shadow-xl border border-[#F1D3A2] text-center">
     <p className="uppercase tracking-[0.25em] text-[#9A5B3F] text-xs mb-3">
       Listen to Our Music
