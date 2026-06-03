@@ -99,6 +99,12 @@
         className="min-h-screen bg-[#FFF7ED] text-[#4A3527]"
         style={{ fontFamily: "'The Seasons', Georgia, serif" }}
       >
+        <iframe
+    className="hidden"
+    src="https://www.youtube-nocookie.com/embed/Z0dapQeEI_I?autoplay=1&loop=1&playlist=Z0dapQeEI_I"
+    title="'Til the End of Time by Steve Green"
+    allow="autoplay; encrypted-media"
+  />
         <nav className="fixed top-0 left-0 right-0 z-50 bg-[#FFF7ED]/90 backdrop-blur-md border-b border-[#D9A441]/30">
   <div className="max-w-7xl mx-auto px-5 md:px-6 py-4 flex justify-between items-center">
     <button
