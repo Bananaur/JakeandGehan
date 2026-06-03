@@ -122,9 +122,9 @@ const toggleMusic = () => {
 
 <button
   onClick={toggleMusic}
-  className="fixed bottom-5 right-5 z-[999] bg-[#4A3527]/90 text-[#FFF7ED] px-5 py-3 rounded-full shadow-xl border border-[#F1D3A2] text-xs uppercase tracking-[0.18em]"
+  className="fixed bottom-4 right-4 w-10 h-10 rounded-full"
 >
-  {musicPlaying ? "Pause Music" : "Play Music"}
+  {musicPlaying ? "⏸" : "▶"}
 </button>
 
         <nav className="fixed top-0 left-0 right-0 z-50 bg-[#FFF7ED]/90 backdrop-blur-md border-b border-[#D9A441]/30">
