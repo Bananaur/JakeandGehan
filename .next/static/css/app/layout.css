@@ -636,6 +636,10 @@ video {
   margin-left: 1.5rem;
   margin-right: 1.5rem;
 }
+.mx-10 {
+  margin-left: 2.5rem;
+  margin-right: 2.5rem;
+}
 .mb-10 {
   margin-bottom: 2.5rem;
 }
@@ -1055,6 +1059,9 @@ video {
 }
 .bg-\[50\%_30\%\] {
   background-position: 50% 30%;
+}
+.bg-\[55\%_30\%\] {
+  background-position: 55% 30%;
 }
 .bg-no-repeat {
   background-repeat: no-repeat;
