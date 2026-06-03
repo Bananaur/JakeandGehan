@@ -773,9 +773,9 @@
         "MR. DANTE LOBOS",
         "MR. PHIL KAHOTEA",
         "MR. WENDEL ANDRADE",
+        "MR. GERSON RECIPROCO",
         "DR. WENDELL UMALI",
         "MR. RICHARD PAGUIO",
-        "MR. GERSON RECIPROCO",
       ]
 
       const principalWomen = [
@@ -784,7 +784,7 @@
         "DR. LAARNI DACUNO",
         "MRS. LILIBETH MENGORIA",
         "MRS. FLORIZA ACEDERA",
-        "MRS. FE SIERVO",
+        "MRS. MARIA FE SIERVO",
         "MRS. CAROL SOSING",
         "DR. EMMA MERINO",
         "MRS. REMA CANDOLE",
@@ -793,9 +793,9 @@
         "MRS. EMMA LEBECO",
         "MRS. BEBINA DOCEO",
         "MS. JULIE DULFO",
+        "MRS. MONALISA ROMINEZ",
         "MRS. LEIDA VILLANUEVA",
         "MRS. RICA MICHELLE PAGUIO",
-        "MRS. MONALISA ROMINEZ",
       ]
 
       const groomsmen = [
