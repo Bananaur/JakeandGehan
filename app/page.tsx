@@ -1023,7 +1023,7 @@
       <p className="text-sm md:text-2xl text-[#4A3527]">
         LICIA JANE PINCA
         <br />
-        MIMI ALIDON
+        SHAOQING LEW
       </p>
     </div>
   </div>
