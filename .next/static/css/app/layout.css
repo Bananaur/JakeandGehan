@@ -1356,6 +1356,10 @@ body {
     margin-top: 3rem;
   }
 
+  .md\:mb-12 {
+    margin-bottom: 3rem;
+  }
+
   .md\:inline {
     display: inline;
   }

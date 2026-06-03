@@ -449,7 +449,7 @@
           "linear-gradient(rgba(255,247,237,0.88), rgba(255,247,237,0.88)), url('https://i.imgur.com/sFufozo.jpeg')",
       }}
     >
-      <div className="text-center mb-16 md:mb-20">
+      <div className="text-center mb-10 md:mb-12">
   <p className="uppercase tracking-[0.3em] text-[#9A5B3F] text-xs md:text-sm mb-4">
     The Entourage
   </p>
