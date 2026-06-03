@@ -241,7 +241,7 @@ const toggleMusic = () => {
         THE WEDDING
       </p>
 
-      <p className="text-2xl md:text-4xl mt-8">
+      <p className="text-2xl md:text-4xl mt-12">
   OF
 </p>
     </div>
