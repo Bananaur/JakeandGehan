@@ -851,7 +851,7 @@
             <p className="uppercase tracking-[0.25em] text-[#9A5B3F] text-xs mb-3">
               Officiating Minister
             </p>
-            <h3 className="text-xs md:text-2xl text-[#4A3527]">
+            <h3 className="text-sm md:text-xl text-[#4A3527]">
               PTR. LOWELL BARTE
             </h3>
           </div>
