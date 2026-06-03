@@ -388,7 +388,7 @@ const toggleMusic = () => {
     </div>
   </section>
 
-            <section className="py-20 px-5 md:px-16 bg-[#FFF7ED]">
+  <section className="pt-8 pb-20 md:py-20 px-5 md:px-16 bg-[#FFF7ED]">
               <div className="text-center mb-14">
                 <p className="uppercase tracking-[0.35em] text-[#9A5B3F] text-sm mb-4">
                   Wedding Guide
