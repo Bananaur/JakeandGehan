@@ -795,7 +795,7 @@
         "MS. JULIE DULFO",
         "MRS. LEIDA VILLANUEVA",
         "MRS. RICA MICHELLE PAGUIO",
-        "MONALISA ROMINEZ",
+        "MRS. MONALISA ROMINEZ",
       ]
 
       const groomsmen = [
