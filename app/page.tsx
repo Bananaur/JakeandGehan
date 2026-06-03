@@ -254,7 +254,7 @@ const toggleMusic = () => {
 >
   {/* MOBILE */}
   <div className="md:hidden">
-    <p className="text-[9rem] leading-[0.75] tracking-[0.03em] text-left mb-6">
+    <p className="text-[6rem] leading-[0.75] tracking-[0.03em] text-left mb-6">
       Jake
     </p>
 
@@ -262,7 +262,7 @@ const toggleMusic = () => {
       &
     </p>
 
-    <p className="text-[9rem] leading-[0.75] tracking-[0.03em] text-right mt-6">
+    <p className="text-[6rem] leading-[0.75] tracking-[0.03em] text-right mt-6">
       Gehan
     </p>
   </div>
@@ -1238,7 +1238,7 @@ const toggleMusic = () => {
               <label className="cursor-pointer rounded-2xl border border-[#F1D3A2] bg-white/90 p-5 text-center hover:bg-[#FFF7ED] transition">
                 <input
                   type="radio"
-                  name="attendance"
+                  name="dance"
                   value="Regretfully Decline"
                   required
                   className="sr-only peer"
