@@ -236,7 +236,7 @@ const toggleMusic = () => {
 
               <div className="relative z-10 text-center max-w-5xl">
               <div className="flex flex-col items-center text-center mb-5">
-              <div className="text-[#FFF3D6] uppercase tracking-[0.35em] mb-24 mt-16">
+              <div className="text-[#FFF3D6] uppercase tracking-[0.35em] mb-24 mt-12">
               <p className="text-white text-m md:text-xl mb-3">07.14.26</p>
       <p className="text-2xl md:text-4xl">
         THE WEDDING
@@ -255,7 +255,7 @@ const toggleMusic = () => {
 >
   {/* MOBILE */}
   <div className="md:hidden w-full">
-  <p className="text-[7rem] leading-[0.75] tracking-[0.03em] text-left mb-4">
+  <p className="text-[9rem] leading-[0.75] tracking-[0.03em] text-left mb-4">
     Jake
   </p>
 
@@ -263,7 +263,7 @@ const toggleMusic = () => {
     &
   </p>
 
-  <p className="text-[7rem] leading-[0.75] tracking-[0.03em] text-right mt-4">
+  <p className="text-[9rem] leading-[0.75] tracking-[0.03em] text-right mt-4">
     Gehan
   </p>
 </div>
