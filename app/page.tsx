@@ -757,7 +757,7 @@ const toggleMusic = () => {
         {schedule.map(([time, event]) => (
           <div
           key={time}
-          className="bg-white/85 rounded-3xl p-6 border border-[#F1D3A2] shadow-sm grid grid-cols-2 gap-12 items-center"
+          className="bg-white/85 rounded-3xl p-6 border border-[#F1D3A2] shadow-sm grid grid-cols-2 gap-20 items-center"
         >
           <div>
             <p className="text-[#9A5B3F] text-lg md:text-xl font-semibold text-right pr-3">
