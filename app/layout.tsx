@@ -19,11 +19,11 @@ export const metadata: Metadata = {
     title: "You Are Cordially Invited!",
     description:
       "Join us as we celebrate the wedding of Jake & Gehan on July 14, 2026 at Villa Cruz Nature's Resort.",
-    url: "/",
+    url: "https://jakeandgehan.vercel.app",
     siteName: "Jake & Gehan Wedding",
     images: [
       {
-        url: "/og-image.png",
+        url: "/canva2.png",
         width: 1200,
         height: 630,
         alt: "Jake & Gehan Wedding Invitation",
@@ -40,17 +40,13 @@ export const metadata: Metadata = {
       "Join us as we celebrate the wedding of Jake & Gehan on July 14, 2026 at Villa Cruz Nature's Resort.",
     images: ["/canva2.png"],
   },
-
-  icons: {
-    icon: "/favicon.ico",
-  },
 };
 
 export default function RootLayout({
   children,
-}: Readonly<{
+}: {
   children: React.ReactNode;
-}>) {
+}) {
   return (
     <html lang="en" className={greatVibes.variable}>
       <body>{children}</body>
