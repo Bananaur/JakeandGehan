@@ -930,6 +930,9 @@ video {
 .bg-cover {
   background-size: cover;
 }
+.bg-\[length\:100\%\] {
+  background-size: 100%;
+}
 .bg-\[40\%_center\] {
   background-position: 40% center;
 }
@@ -941,6 +944,9 @@ video {
 }
 .bg-\[52\%_30\%\] {
   background-position: 52% 30%;
+}
+.bg-no-repeat {
+  background-repeat: no-repeat;
 }
 .object-cover {
   -o-object-fit: cover;
@@ -1393,6 +1399,10 @@ body {
 
   .md\:gap-8 {
     gap: 2rem;
+  }
+
+  .md\:bg-cover {
+    background-size: cover;
   }
 
   .md\:bg-center {
