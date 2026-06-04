@@ -291,6 +291,9 @@ const toggleMusic = () => {
                 </div>
 
                 <div className="my-8 w-32 h-[1px] bg-[#F7DFA7] mx-auto" />
+                <p className="text-[#FFF3D6] mt-5 text-xl md:text-2xl leading-relaxed">
+    2 O'clock in the afternoon
+  </p>
 
                 <p className="text-[#FFF3D6] mt-5 text-xl md:text-2xl leading-relaxed">
     Villa Cruz Nature&apos;s Resort
