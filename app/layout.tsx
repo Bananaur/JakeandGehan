@@ -10,6 +10,7 @@ const greatVibes = Great_Vibes({
 
 export const metadata: Metadata = {
   metadataBase: new URL("https://jakeandgehan.vercel.app"),
+
   title: "You Are Cordially Invited!",
   description:
     "Join us as we celebrate the wedding of Jake & Gehan on July 14, 2026 at Villa Cruz Nature's Resort.",
@@ -18,7 +19,7 @@ export const metadata: Metadata = {
     title: "You Are Cordially Invited!",
     description:
       "Join us as we celebrate the wedding of Jake & Gehan on July 14, 2026 at Villa Cruz Nature's Resort.",
-    url: "https://jakeandgehan.vercel.app",
+    url: "/",
     siteName: "Jake & Gehan Wedding",
     images: [
       {
@@ -34,18 +35,22 @@ export const metadata: Metadata = {
 
   twitter: {
     card: "summary_large_image",
-    title: "You Are Invited!",
+    title: "You Are Cordially Invited!",
     description:
       "Join us as we celebrate the wedding of Jake & Gehan on July 14, 2026 at Villa Cruz Nature's Resort.",
     images: ["/canva2.png"],
+  },
+
+  icons: {
+    icon: "/favicon.ico",
   },
 };
 
 export default function RootLayout({
   children,
-}: {
+}: Readonly<{
   children: React.ReactNode;
-}) {
+}>) {
   return (
     <html lang="en" className={greatVibes.variable}>
       <body>{children}</body>
