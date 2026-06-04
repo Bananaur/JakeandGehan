@@ -293,7 +293,7 @@ const toggleMusic = () => {
                 <div className="my-8 w-32 h-[1px] bg-[#F7DFA7] mx-auto" />
 
 <p className="text-[#FFF3D6] mt-3 text-xl md:text-2xl leading-relaxed">
-  2 PM
+ Starts @ 2:00 PM
 </p>
 
 <p className="text-[#FFF3D6] mt-1 text-xl md:text-2xl leading-relaxed">
