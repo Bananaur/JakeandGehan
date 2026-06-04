@@ -11,14 +11,14 @@ const greatVibes = Great_Vibes({
 export const metadata: Metadata = {
   metadataBase: new URL("https://jakeandgehan.vercel.app"),
 
-  title: "You Are Cordially Invited!",
+  title: "You Are Invited!",
   description:
     "Join us as we celebrate the wedding of Jake & Gehan on July 14, 2026 at Villa Cruz Nature's Resort.",
 
   openGraph: {
-    title: "You Are Cordially Invited!",
+    title: "You Are Invited!",
     description:
-      "Join us as we celebrate the wedding of Jake & Gehan on July 14, 2026 at Villa Cruz Nature's Resort.",
+      "Join us as we celebrate the wedding of Jake & Gehan on July 14, 2026.",
     url: "https://jakeandgehan.vercel.app",
     siteName: "Jake & Gehan Wedding",
     images: [
@@ -26,7 +26,7 @@ export const metadata: Metadata = {
         url: "/hij.png?v=1",
         width: 1200,
         height: 630,
-        alt: "Jake & Gehan Wedding Invitation",
+        alt: "Jake and Gehan Wedding Invitation",
       },
     ],
     locale: "en_US",
@@ -35,18 +35,18 @@ export const metadata: Metadata = {
 
   twitter: {
     card: "summary_large_image",
-    title: "You Are Cordially Invited!",
+    title: "You Are Invited!",
     description:
-      "Join us as we celebrate the wedding of Jake & Gehan on July 14, 2026 at Villa Cruz Nature's Resort.",
-      images: ["/hij.png?v=1"],
+      "Join us as we celebrate the wedding of Jake & Gehan on July 14, 2026.",
+    images: ["/hij.png?v=1"],
   },
 };
 
 export default function RootLayout({
   children,
-}: {
+}: Readonly<{
   children: React.ReactNode;
-}) {
+}>) {
   return (
     <html lang="en" className={greatVibes.variable}>
       <body>{children}</body>
