@@ -315,12 +315,12 @@ const toggleMusic = () => {
                 <Countdown timeLeft={timeLeft} />
                 <div className="max-w-2xl mx-auto mt-20">
   <div className="bg-white/80 rounded-[2rem] p-6 md:p-8 shadow-xl border border-[#F1D3A2] text-center">
-    <p className="uppercase tracking-[0.25em] text-[#9A5B3F] text-xs mb-3">
+    <p className="uppercase tracking-[0.25em] text-[#9A5B3F] text-sm mb-3">
       Listen to Our Music
     </p>
 
     <h3
-      className={`${greatVibes.className} text-3xl md:text-5xl text-[#4A3527] mb-2 tracking-wide`}
+      className={`${greatVibes.className} text-3xl md:text-5xl text-[#4A3527] mb-3 tracking-wide`}
     >
       'Til the End of Time
     </h3>
@@ -391,7 +391,7 @@ const toggleMusic = () => {
     </div>
   </section>
 
-  <section className="pt-8 pb-20 md:py-20 px-5 md:px-16 bg-[#FFF7ED]">
+  <section className="pt-6 pb-20 md:py-20 px-5 md:px-16 bg-[#FFF7ED]">
               <div className="text-center mb-14">
                 <p className="uppercase tracking-[0.35em] text-[#9A5B3F] text-sm mb-4">
                   Wedding Guide
