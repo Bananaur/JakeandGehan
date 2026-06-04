@@ -23,7 +23,7 @@ export const metadata: Metadata = {
     siteName: "Jake & Gehan Wedding",
     images: [
       {
-        url: "/efg.png",
+        url: "/efg.png?v=7",
         width: 1200,
         height: 630,
         alt: "Jake & Gehan Wedding Invitation",
@@ -38,7 +38,7 @@ export const metadata: Metadata = {
     title: "You Are Cordially Invited!",
     description:
       "Join us as we celebrate the wedding of Jake & Gehan on July 14, 2026 at Villa Cruz Nature's Resort.",
-    images: ["/efg.png"],
+      images: ["/efg.png?v=7"],
   },
 };
 
