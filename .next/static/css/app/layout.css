@@ -939,6 +939,9 @@ video {
 .bg-center {
   background-position: center;
 }
+.bg-\[52\%_30\%\] {
+  background-position: 52% 30%;
+}
 .object-cover {
   -o-object-fit: cover;
      object-fit: cover;
@@ -1083,6 +1086,9 @@ video {
 .text-xs {
   font-size: 0.75rem;
   line-height: 1rem;
+}
+.text-\[7rem\] {
+  font-size: 7rem;
 }
 .font-bold {
   font-weight: 700;
