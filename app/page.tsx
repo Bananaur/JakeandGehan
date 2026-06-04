@@ -59,7 +59,7 @@ const toggleMusic = () => {
     }, [weddingDate])
 
     const heroImage =
-    "canva.png"
+    "canva2.png"
 
     const greenPalette = ["#CFE1B9", "#B5C99A", "#97A97C", "#87986A", "#718355"]
 
