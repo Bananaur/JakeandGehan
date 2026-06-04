@@ -365,9 +365,7 @@ const toggleMusic = () => {
               only became stronger.
               <br />
               <br />
-              Today, we celebrate the journey that brought us together and
-              look forward to a lifetime of love, laughter, and unwavering
-              commitment.
+              Today, we give thanks to God for every season and every blessing that led us to this moment. As we step into a new chapter, we look ahead to a lifetime of love, laughter, and a bond strengthened by faith and devotion.
             </p>
           </div>
 

@@ -23,7 +23,7 @@ export const metadata: Metadata = {
     siteName: "Jake & Gehan Wedding",
     images: [
       {
-        url: "/canva2.png",
+        url: "/efg.png",
         width: 1200,
         height: 630,
         alt: "Jake & Gehan Wedding Invitation",
