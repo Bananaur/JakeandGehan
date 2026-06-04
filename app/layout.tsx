@@ -37,7 +37,7 @@ export const metadata: Metadata = {
     title: "You Are Invited!",
     description:
       "Join us as we celebrate the wedding of Jake & Gehan on July 14, 2026 at Villa Cruz Nature's Resort.",
-    images: ["/og-image.png"],
+    images: ["/layout3.png"],
   },
 };
 
