@@ -227,8 +227,8 @@ const toggleMusic = () => {
 
         {page === "home" && (
           <>
-            <section className="relative z-0 min-h-screen overflow-hidden flex items-center justify-center px-5 pt-24 pb-12">
-  <div className="absolute inset-0 -z-10">
+            <section className="relative min-h-screen overflow-hidden flex items-center justify-center px-5 pt-24 pb-12">
+      <div className="absolute inset-0">
     <div
       className="absolute inset-0 bg-cover bg-center bg-no-repeat md:hidden"
       style={{ backgroundImage: "url('/hero-mobile.jpg')" }}
