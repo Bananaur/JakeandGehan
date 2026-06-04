@@ -286,7 +286,7 @@ const toggleMusic = () => {
                     “He hath made every thing beautiful in His time”
                   </p>
                   <p className="uppercase tracking-[0.25em] text-[#F7DFA7] mt-4 text-xs md:text-sm">
-                    Ecclesiastes 3:11a
+                    Ecclesiastes 3:11a KJV
                   </p>
                 </div>
 
