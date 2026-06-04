@@ -342,6 +342,7 @@ const toggleMusic = () => {
             </section>
 
             <section className="pt-4 pb-24 md:py-24 px-5 md:px-16 bg-gradient-to-b from-[#FFF7ED] via-[#F7E7CE] to-[#FFF7ED]">
+    <div className="max-w-6xl mx-auto">
       <div className="text-center mb-14">
         <p className="uppercase tracking-[0.35em] text-[#9A5B3F] text-M mb-4">
           Our Story
