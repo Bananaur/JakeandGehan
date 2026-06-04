@@ -236,7 +236,7 @@ const toggleMusic = () => {
 
     <div
       className="absolute inset-0 hidden bg-cover bg-center bg-no-repeat md:block"
-      style={{ backgroundImage: "url('/hero-desktop.jpg')" }}
+      style={{ backgroundImage: "url('/hero-desktop.png')" }}
     />
   </div>
               <div className="absolute inset-0 bg-gradient-to-b from-[#3D2B1F]/70 via-[#8F5A3A]/40 to-[#FFF7ED]" />
