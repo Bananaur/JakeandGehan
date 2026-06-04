@@ -1137,7 +1137,7 @@ const toggleMusic = () => {
 
   function AttendanceSection() {
     return (
-      <section className="py-24 px-5 md:px-16 bg-gradient-to-b from-[#FFF7ED] to-[#F7E7CE]">
+      <section className="pt-8 pb-24 md:pt-8 md:pb-24 px-5 md:px-16 bg-gradient-to-b from-[#FFF7ED] to-[#F7E7CE]">
         <div className="max-w-3xl mx-auto text-center">
           <p className="uppercase tracking-[0.35em] text-[#9A5B3F] text-sm mb-6">
             Attendance Confirmation
