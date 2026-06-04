@@ -298,7 +298,7 @@ const toggleMusic = () => {
     Balud, San Roque Northern Samar
   </p>
 
-                <p className="text-[#FFF3D6] uppercase tracking-[0.22em] text-base md:text-xl mt-10 mb-10">
+                <p className="text-[#FFF3D6] uppercase tracking-[0.22em] text-lg md:text-2xl mt-10 mb-10">
     Counting the Days Until We Say{" "}
     <span
       className="italic"
