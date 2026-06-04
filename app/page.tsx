@@ -365,7 +365,7 @@ const toggleMusic = () => {
               only became stronger.
               <br />
               <br />
-              Today, we give thanks to God for every season and every blessing that led us to this moment. As we step into a new chapter, we look ahead to a lifetime of love, laughter, and a bond strengthened by faith and devotion.
+              Today, we give thanks to God for every season and every blessing that led us to this moment. As we step into a new chapter of our story, we look ahead to a lifetime of love, laughter, and a bond strengthened by faith and devotion.
             </p>
           </div>
 
