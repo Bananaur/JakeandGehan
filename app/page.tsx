@@ -435,7 +435,7 @@
             The Wedding Timeline
           </p>
 
-          <h2 className="text-4xl md:text-7xl text-[#2E1F17]">
+          <h2 className="text-4xl md:text-7xl text-[#4A3527]">
             Garden Ceremony & Hall Reception
           </h2>
         </div>
@@ -453,7 +453,7 @@
         }}
       >
         <div className="text-center mb-12 md:mb-18">
-      <p className="uppercase tracking-[0.35em] text-[#4A3527] text-xs md:text-sm mb-4">
+      <p className="uppercase tracking-[0.35em] text-[#9A5B3F] text-xs md:text-sm mb-4">
         Ceremony & Reception Venue
       </p>
 
