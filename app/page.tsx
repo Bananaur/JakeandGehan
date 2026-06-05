@@ -233,7 +233,7 @@ const toggleMusic = () => {
   <img
     src="/hero-mobile.png"
     alt="Jake and Gehan"
-    className="w-full h-full object-cover object-center"
+    className="w-full h-full object-contain"
   />
 </div>
 
