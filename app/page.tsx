@@ -371,13 +371,13 @@
                 faith, patience, and God&apos;s perfect timing.
                 <br />
                 <br />
-                Through seasons of distance, challenges, and growth, our bond
-                only became stronger.
+                Through seasons of distance, challenges, and growth, we continued to 
+                choose each other every step of the way.
                 <br />
                 <br />
-                With deep gratitude, we thank God for the beautiful tapestry of moments 
-                that led our paths to this day. As we turn the page to a new chapter, 
-                we look ahead to a lifetime of love and laughter—our souls anchored in faith, and our hearts forever devoted.
+                We give thanks to God for His faithfulness and the countless ways He has shaped our lives.
+                As we make our vows, we look ahead to a 
+                lifetime of love and laughter—our souls anchored in faith, and our hearts forever devoted.
               </p>
             </div>
 
