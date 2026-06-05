@@ -266,7 +266,7 @@
     {/* MOBILE */}
     <div className="md:hidden w-full">
     <p className="text-[7rem] leading-[0.75] tracking-[0.03em] text-left mb-4">
-      Jake
+      Jaki
     </p>
 
     <p className="text-[5rem] leading-none text-center my-4">

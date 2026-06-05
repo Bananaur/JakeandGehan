@@ -593,12 +593,6 @@ video {
 .z-50 {
   z-index: 50;
 }
-.-z-10 {
-  z-index: -10;
-}
-.z-0 {
-  z-index: 0;
-}
 .mx-10 {
   margin-left: 2.5rem;
   margin-right: 2.5rem;
@@ -747,36 +741,6 @@ video {
   --tw-rotate: 1deg;
   transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
 }
-.scale-110 {
-  --tw-scale-x: 1.1;
-  --tw-scale-y: 1.1;
-  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
-}
-.scale-105 {
-  --tw-scale-x: 1.05;
-  --tw-scale-y: 1.05;
-  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
-}
-.scale-75 {
-  --tw-scale-x: .75;
-  --tw-scale-y: .75;
-  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
-}
-.scale-90 {
-  --tw-scale-x: .9;
-  --tw-scale-y: .9;
-  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
-}
-.scale-95 {
-  --tw-scale-x: .95;
-  --tw-scale-y: .95;
-  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
-}
-.scale-100 {
-  --tw-scale-x: 1;
-  --tw-scale-y: 1;
-  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
-}
 .cursor-pointer {
   cursor: pointer;
 }
@@ -911,6 +875,10 @@ video {
 .bg-\[\#4A3527\]\/90 {
   background-color: rgb(74 53 39 / 0.9);
 }
+.bg-\[\#5A3A1E\] {
+  --tw-bg-opacity: 1;
+  background-color: rgb(90 58 30 / var(--tw-bg-opacity));
+}
 .bg-\[\#9A5B3F\] {
   --tw-bg-opacity: 1;
   background-color: rgb(154 91 63 / var(--tw-bg-opacity));
@@ -938,10 +906,6 @@ video {
 }
 .bg-white\/90 {
   background-color: rgb(255 255 255 / 0.9);
-}
-.bg-\[\#5A3A1E\] {
-  --tw-bg-opacity: 1;
-  background-color: rgb(90 58 30 / var(--tw-bg-opacity));
 }
 .bg-gradient-to-b {
   background-image: linear-gradient(to bottom, var(--tw-gradient-stops));
@@ -973,48 +937,14 @@ video {
 .bg-cover {
   background-size: cover;
 }
-.bg-\[length\:100\%\] {
-  background-size: 100%;
-}
-.bg-\[length\:100\%_auto\] {
-  background-size: 100% auto;
-}
-.bg-\[length\:130\%_auto\] {
-  background-size: 130% auto;
-}
-.bg-\[length\:150\%_auto\] {
-  background-size: 150% auto;
-}
-.bg-\[length\:200\%_auto\] {
-  background-size: 200% auto;
-}
-.bg-contain {
-  background-size: contain;
-}
 .bg-\[40\%_center\] {
   background-position: 40% center;
-}
-.bg-\[53\%_30\%\] {
-  background-position: 53% 30%;
 }
 .bg-center {
   background-position: center;
 }
-.bg-\[52\%_30\%\] {
-  background-position: 52% 30%;
-}
-.bg-top {
-  background-position: top;
-}
-.bg-\[50\%_15\%\] {
-  background-position: 50% 15%;
-}
 .bg-no-repeat {
   background-repeat: no-repeat;
-}
-.object-contain {
-  -o-object-fit: contain;
-     object-fit: contain;
 }
 .object-cover {
   -o-object-fit: cover;
@@ -1023,10 +953,6 @@ video {
 .object-fill {
   -o-object-fit: fill;
      object-fit: fill;
-}
-.object-center {
-  -o-object-position: center;
-     object-position: center;
 }
 .p-3 {
   padding: 0.75rem;
@@ -1146,8 +1072,8 @@ video {
 .text-\[5rem\] {
   font-size: 5rem;
 }
-.text-\[9rem\] {
-  font-size: 9rem;
+.text-\[7rem\] {
+  font-size: 7rem;
 }
 .text-base {
   font-size: 1rem;
@@ -1168,9 +1094,6 @@ video {
 .text-xs {
   font-size: 0.75rem;
   line-height: 1rem;
-}
-.text-\[7rem\] {
-  font-size: 7rem;
 }
 .font-bold {
   font-weight: 700;
@@ -1222,10 +1145,6 @@ video {
 }
 .tracking-wide {
   letter-spacing: 0.025em;
-}
-.text-\[\#2E1F17\] {
-  --tw-text-opacity: 1;
-  color: rgb(46 31 23 / var(--tw-text-opacity));
 }
 .text-\[\#4A3527\] {
   --tw-text-opacity: 1;
@@ -1475,14 +1394,6 @@ body {
 
   .md\:gap-8 {
     gap: 2rem;
-  }
-
-  .md\:bg-cover {
-    background-size: cover;
-  }
-
-  .md\:bg-center {
-    background-position: center;
   }
 
   .md\:p-10 {
